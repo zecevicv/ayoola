@@ -152,6 +152,10 @@ body {
   height: 1vw;
 }
 
+.banner-lg .img img {
+  width: 100%;
+}
+
 @media (max-width: 1023.98px) {
   .banner-lg {
     margin: 13.3vw 0;
@@ -492,6 +496,11 @@ body {
 .home-support p {
   margin-bottom: 1.5vw;
   line-height: 1.2;
+}
+
+.home-support .img img,
+.home-support .img picture {
+  width: 100%;
 }
 
 @media (max-width: 1023.98px) {
