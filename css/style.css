@@ -34,7 +34,7 @@ body {
 
 @media (max-width: 1023.98px) {
   .underline-purple {
-    padding-bottom: 1vw;
+    padding-bottom: 3vw;
   }
 }
 
@@ -409,6 +409,11 @@ body {
     display: block;
   }
 
+  .banner-lg.alt .container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .banner-lg .text {
     background-color: transparent;
     align-items: center;
@@ -418,6 +423,12 @@ body {
     position: absolute;
     top: 7.33vw;
     left: 0;
+  }
+
+  .banner-lg.alt .text {
+    position: static;
+    background-color: #F5F5F5;
+    padding: 6.66vw;
   }
 
   .banner-lg p {
@@ -1176,5 +1187,315 @@ body {
   
   .e-404-text {
     margin-bottom: 8vw;
+  }
+}
+
+/* #Customer Service
+================================================== */
+.customer-service {
+  overflow: hidden;
+  margin-top: -2.76vw;
+  position: relative;
+  z-index: 1;
+  padding-bottom: 6.77vw;
+}
+
+.customer-service .heading {
+  text-align: center;
+  padding: 3.125vw 0;
+}
+
+.customer-service .customer-service-title {
+  margin-bottom: 1vw;
+  line-height: 1.1;
+  padding-bottom: 1vw;
+}
+
+.customer-service .text-content h1,
+.customer-service .text-content h2,
+.customer-service .text-content h3,
+.customer-service .text-content h4 {
+  font-size: 1.45vw;
+  font-weight: 600;
+  margin: 1.5vw 0;
+  border-bottom: 2px solid #FF03CD;
+  display: inline-block;
+  padding-bottom: .25vw;
+}
+
+.customer-service .text-content p,
+.customer-service .text-content ul li {
+  font-size: 1.04vw;
+  margin-bottom: 1vw;
+}
+
+.customer-service .text-content ul li::before {
+  content: '• ';
+}
+
+.qa .container,
+.shipping .container,
+.refund .container,
+.tos .container {
+  width: 62.5%;
+}
+
+.customer-service .banner-lg {
+  margin: 3.9vw 0 0 0;
+}
+
+.customer-service .banner-lg .container {
+  width: 100%;
+}
+
+.customer-service .banner-lg h2 {
+  margin-bottom: 1vw;
+}
+
+.customer-service .accordion:not(:last-of-type) {
+  margin-bottom: 3.9vw;
+}
+
+.customer-service .collapse-toggler {
+  border-bottom: 1px solid #CECECE;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 0;
+}
+
+.customer-service .collapse-toggler p {
+  margin: 0;
+  font-size: 1.25vw;
+  font-weight: 600;
+}
+
+.customer-service .collapse > div {
+  margin-top: 1vw;
+}
+
+.customer-service .simbol {
+  transition: all .5s ease;
+}
+
+.customer-service .simbol img {
+  width: .78vw;
+}
+
+.customer-service .show .simbol {
+  transform: rotate(45deg);
+}
+
+@media (min-width: 1024px) {
+  .customer-service .banner-lg .text {
+    padding: 0 3vw;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .customer-service {
+    margin-top: 0;
+    padding: 8vw 0 17.33vw 0;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    margin-top: -10vw;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
+
+  .customer-service .heading {
+    padding: 9.33vw 0 8vw 0;
+  }
+  
+  .customer-service .customer-service-title {
+    margin-bottom: 2.66vw;
+    padding-bottom: 3vw;
+  }
+
+  .customer-service .text-content h1,
+  .customer-service .text-content h2,
+  .customer-service .text-content h3,
+  .customer-service .text-content h4 {
+    font-size: 6.66vw;
+    margin: 6.66vw 0;
+  }
+
+  .customer-service .text-content p,
+  .customer-service .text-content ul li  {
+    font-size: 4vw;
+    margin-bottom: 4vw;
+  }
+
+  .qa .container,
+  .shipping .container,
+  .refund .container,
+  .tos .container {
+    width: 92%;
+  }
+
+  .customer-service .banner-lg {
+    margin: 12vw 0 0 0;
+  }
+  
+  .customer-service .banner-lg h2 {
+    margin-bottom: 2vw;
+  }
+
+  .customer-service .banner-lg p br {
+    display: none;
+  }
+
+  .customer-service .accordion:not(:last-of-type) {
+    margin-bottom: 10.65vw;
+  }
+  
+  .customer-service .collapse-toggler {
+    padding: 4vw 0;
+  }
+  
+  .customer-service .collapse-toggler p {
+    font-size: 5.6vw;
+    margin: 0;
+  }
+  
+  .customer-service .collapse > div {
+    margin-top: 3vw;
+  }
+  
+  .customer-service .simbol {
+    transition: all .5s ease;
+  }
+  
+  .customer-service .simbol img {
+    width: .78vw;
+  }
+  
+  .customer-service .show .simbol {
+    transform: rotate(45deg);
+  }
+
+  .customer-service .simbol img {
+    width: 3.33vw;
+  }
+}
+
+/* #Customer Bar
+================================================== */
+.customer-bar .container {
+  width: 62.5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: .5vw 3.125vw;
+  box-shadow: 0 3px 24px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  border-radius: .5vw;
+}
+
+.customer-bar .text {
+  padding-left: 3.125vw;
+  min-width: 12.5vw;
+}
+
+.customer-bar .links {
+  flex-grow: 1;
+}
+
+.customer-bar .link {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: .5vw;
+  border-radius: .5vw;
+  border: 1px solid black;
+  opacity: .4;
+  height: 100%;
+}
+
+.customer-bar .link.active {
+  opacity: 1;
+}
+
+.customer-bar .link .img {
+  height: 1.875vw;
+  margin-bottom: .25vw;
+}
+
+.customer-bar .link .img img {
+  height: 100%;
+}
+
+.customer-bar .swiper-container {
+  margin: 0 -.9vw;
+}
+
+.customer-bar .swiper-slide {
+  padding: 0 .9vw;
+  height: auto;
+}
+
+@media (min-width: 1024px) {
+  .customer-bar .swiper-pagination {
+    display: none;
+  }
+}
+
+@media (max-width: 1023.98px) {
+  .customer-bar {
+    margin-top: 0;
+  }
+  
+  .customer-bar .container {
+    width: 100%;
+    display: block;
+    padding: 0;
+    padding-right: 0.66vw;
+    box-shadow: none;
+    border-radius: 0;
+    text-align: center;
+  }
+  
+  .customer-bar .text {
+    padding-left: 0;
+  }
+  
+  .customer-bar .link {
+    justify-content: flex-start;
+    padding: 2.2vw 3vw;
+    border-radius: 1.33vw;
+  }
+  
+  .customer-bar .link .img {
+    height: 7.33vw;
+    margin-bottom: 1.33vw;
+  }
+  
+  .customer-bar .link .img img {
+    width: 100%;
+  }
+  
+  .customer-bar .swiper-container {
+    margin: 0;
+    padding: 6vw 0 9vw 0;
+  }
+  
+  .customer-bar .swiper-slide {
+    padding: 0 1.66vw;
+  }
+
+  .customer-bar .swiper-pagination {
+    bottom: 0;
+  }
+
+  .customer-bar .swiper-pagination-bullet-active {
+    background-color: black;
+  }
+
+  .swiper-pagination-bullet {
+    background: #F0F0F0;
+    opacity: 1;
   }
 }

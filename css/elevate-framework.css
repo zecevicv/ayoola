@@ -270,3 +270,44 @@ h5,
 h6 {
   font-size: inherit;
 }
+
+/* #Tabs
+================================================== */
+.tabs .tab-panel {
+  height: 0;
+  opacity: 0;
+  visibility: hidden;
+  overflow: hidden;
+
+  transition: opacity .8s ease, visibility .8s ease;
+}
+
+.tabs .tab-panel.active {
+  height: auto;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* #Accordion
+================================================== */
+.accordion .simbol .minus {
+  display: none;
+}
+
+.accordion .show .simbol .minus {
+  display: block;
+}
+
+.accordion .show .simbol .plus {
+  display: none;
+}
+
+.accordion .collapse {
+  overflow: hidden;
+  height: 0;
+}
+
+.accordion .collapse-toggler {
+  cursor: pointer;
+  user-select: none;
+}
