@@ -10,6 +10,10 @@ body {
   color: #FF03CD;
 }
 
+.text-gray {
+  color: #A7A7A7;
+}
+
 .underline-purple {
   display: inline-block;
   padding-bottom: .25vw;
@@ -1132,6 +1136,244 @@ body {
   
   .blog .load-more {
     margin-top: 11.33vw;
+  }
+}
+
+/* #Blog Post
+================================================== */
+.blog-post {
+  padding: 3.125vw 0 6.77vw 0;
+}
+
+.blog-post .container {
+  width: 62.5%;
+}
+
+/* Header */
+.blog-post-header {
+  margin-bottom: 1.5vw;
+}
+
+.blog-post-title {
+  margin-bottom: 1vw;
+  padding-bottom: 1vw;
+}
+
+.blog-post-subtitle {
+  color: #434343;
+}
+
+/* Info */
+.blog-post-info {
+  border-top: 1px solid #f1f1f1;
+  border-bottom: 1px solid #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1vw 0;
+  margin-bottom: 1.5vw;
+}
+
+.blog-post-info > p span:last-child {
+  margin-right: 1.5vw;
+}
+
+/* Body */
+.blog-post-body {
+  margin-bottom: 3.65vw;
+}
+
+.blog-post-body .img {
+  margin: 1.5vw 0;
+}
+
+.blog-post-body .img,
+.blog-post-body .img img {
+  width: 100%;
+}
+
+.blog-post-body h1,
+.blog-post-body h2,
+.blog-post-body h3,
+.blog-post-body h4 {
+  font-size: 1.45vw;
+  color: #434343;
+  margin-bottom: 1vw;
+}
+
+.blog-post-body p {
+  font-size: 0.94vw;
+}
+
+/* Footer */
+.blog-post-footer {
+  border-top: 1px solid #f1f1f1;
+  padding-top: .5vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blog-post-footer .next a,
+.blog-post-footer .previous a {
+  display: flex;
+  align-items: center;
+}
+
+.blog-post-footer .next p span,
+.blog-post-footer .previous p span {
+  display: block;
+  line-height: 1;
+}
+
+.blog-post-footer .next p {
+  margin-right: .5vw;
+}
+
+.blog-post-footer .previous p {
+  margin-left: .5vw;
+}
+
+.blog-post-footer .previous {
+  text-align: left;
+}
+
+.blog-post-footer img {
+  width: 1vw;
+}
+
+/* Social */
+.blog-post-social {
+  display: flex;
+  align-items: center;
+}
+
+.blog-post-social ul {
+  display: flex;
+  align-items: center;
+  margin-right: .68vw;
+}
+
+.blog-post-social li:not(:last-child) {
+  margin-left: 1vw;
+}
+
+.blog-post-social img {
+  width: 1.45vw;
+}
+
+@media (max-width: 1023.98px) {
+  .blog-post {
+    padding: 8vw 0 17.33vw 0;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    margin-top: -10vw;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .blog-post .container {
+    width: 92%;
+  }
+
+  /* Header */
+  .blog-post-header {
+    margin-bottom: 4vw;
+  }
+
+  .blog-post-title {
+    margin-bottom: 3vw;
+    padding-bottom: 3vw;
+  }
+
+  /* Info */
+  .blog-post-info {
+    border-top: none;
+    border-bottom: none;
+    display: block;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin-bottom: 5.33vw;
+  }
+
+  .blog-post-info > p {
+    border-top: 1px solid #CECECE;
+    border-bottom: 1px solid #CECECE;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4vw 0;
+    margin-bottom: 5.33vw;
+  }
+
+  .blog-post-info > p span:last-child {
+    margin-right: 0;
+  }
+
+  /* Body */
+  .blog-post-body {
+    margin-bottom: 10.66vw;
+  }
+
+  .blog-post-body .img {
+    margin: 6vw 0;
+  }
+
+  .blog-post-body h1,
+  .blog-post-body h2,
+  .blog-post-body h3,
+  .blog-post-body h4 {
+    font-size: 4.53vw;
+    margin-bottom: 2vw;
+  }
+
+  .blog-post-body p {
+    font-size: 4vw;
+  }
+
+  /* Footer */
+  .blog-post-footer {
+    border-top: none;
+    padding-top: 0;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-between;
+  }
+
+  .blog-post-footer .next p {
+    margin-right: 1.33vw;
+  }
+
+  .blog-post-footer .previous p {
+    margin-left: 1.33vw;
+  }
+
+  .blog-post-footer img {
+    width: 4.66vw;
+  }
+
+  .blog-post-footer .blog-post-social {
+    flex: 0 0 100%;
+    order: -1;
+    justify-content: center;
+    padding-bottom: 10vw;
+    border-bottom: 1px solid #707070;
+    margin-bottom: 4vw;
+  }
+
+  /* Social */
+  .blog-post-social ul {
+    margin-right: 3.73vw;
+  }
+
+  .blog-post-social li:not(:last-child) {
+    margin-left: 3.73vw;
+  }
+
+  .blog-post-social img {
+    width: 5.73vw;
   }
 }
 
