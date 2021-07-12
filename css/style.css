@@ -1123,3 +1123,58 @@ body {
     margin-top: 11.33vw;
   }
 }
+
+/* #404
+================================================== */
+.e-404 {
+  padding: 3.125vw 0 6.77vw 0;
+}
+
+.e-404 .container {
+  width: 79%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.e-404-title {
+  margin-bottom: 1vw;
+}
+
+.e-404-subtitle {
+  margin-bottom: .5vw;
+}
+
+.e-404-text {
+  margin-bottom: 2.85vw;
+}
+
+@media (max-width: 1023.98px) {
+  .e-404 {
+    padding: 8vw 0 17.33vw 0;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    margin-top: -10vw;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .e-404 .container {
+    width: 77%;
+  }
+
+  .e-404-title {
+    margin-bottom: 2.66vw;
+  }
+  
+  .e-404-subtitle {
+    margin-bottom: 2.66vw;
+  }
+  
+  .e-404-text {
+    margin-bottom: 8vw;
+  }
+}
