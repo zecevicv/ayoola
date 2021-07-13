@@ -124,6 +124,7 @@ button {
 .f-d-16 {font-size: 0.83vw !important; /* 16px */ }
 .f-d-18 {font-size: 0.94vw !important; /* 18px */ }
 .f-d-20 {font-size: 1.04vw !important; /* 20px */ }
+.f-d-21 {font-size: 1.09vw !important; /* 21px */ }
 .f-d-22 {font-size: 1.15vw !important; /* 22px */ }
 .f-d-24 {font-size: 1.25vw !important; /* 24px */ }
 .f-d-25 {font-size: 1.3vw !important; /* 25px */ }
@@ -160,6 +161,7 @@ button {
   .f-m-16 {font-size: 2.13vw !important; /* 16px */ }
   .f-m-18 {font-size: 2.4vw !important; /* 18px */ }
   .f-m-20 {font-size: 2.66vw !important; /* 20px */ }
+  .f-m-21 {font-size: 2.8vw !important; /* 21px */ }
   .f-m-22 {font-size: 2.93vw !important; /* 22px */ }
   .f-m-24 {font-size: 3.2vw !important; /* 24px */ }
   .f-m-25 {font-size: 3.33vw !important; /* 25px */ }
@@ -309,6 +311,40 @@ h6 {
 }
 
 .accordion .collapse-toggler {
+  cursor: pointer;
+  user-select: none;
+}
+
+/* #Checkbox
+================================================== */
+.checkbox {
+  display: flex;
+  align-items: flex-start;
+}
+
+.checkbox input {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  appearance: none;
+  border-radius: 4px;
+  border-color: #707070;
+  border-width: 1px;
+  border-style: solid;
+  flex: 0 0 20px;
+}
+
+.checkbox input:checked {
+  border-color: #1c6bba;
+  background-color: #1c6bba;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 12 10' fill='none' %3E %3Cpath stroke='%23ffffff' d='M1 6L4 9L11 1' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round' %3E %3C/path%3E %3C/svg%3E");
+  background-size: 12px 10px;
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.checkbox label {
+  padding-right: 7px;
   cursor: pointer;
   user-select: none;
 }
