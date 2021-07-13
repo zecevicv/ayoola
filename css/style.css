@@ -645,34 +645,34 @@ body {
   }
 }
 
-/* #Home Instagram
+/* #Instagram
 ================================================== */
-.home-instagram {
+.instagram {
   margin: 5.7vw 0;
   text-align: center;
 }
 
-.home-instagram .container {
+.instagram .container {
   width: 62.5%;
 }
 
-.home-instagram h2 {
+.instagram h2 {
   line-height: 1;
 }
 
-.home-instagram ul {
+.instagram ul {
   display: flex;
   flex-wrap: wrap;
 
   margin: 3.3vw -1.1vw 1.75vw -1.1vw;
 }
 
-.home-instagram ul li {
+.instagram ul li {
   padding: 1.1vw;
   flex: 0 0 25%;
 }
 
-.home-instagram ul li a {
+.instagram ul li a {
   width: 100%;
   height: 100%;
   overflow: hidden;
@@ -682,7 +682,7 @@ body {
   padding-top: 100%;
 }
 
-.home-instagram ul li a img {
+.instagram ul li a img {
   transition: all .5s ease;
   transform: scale(1.01);
 
@@ -695,24 +695,24 @@ body {
   object-position: center;
 }
 
-.home-instagram ul li a:hover img {
+.instagram ul li a:hover img {
   transform: scale(1.05);
 }
 
 @media (max-width: 1023.98px) {
-  .home-instagram {
+  .instagram {
     margin: 13.3vw 0;
   }
 
-  .home-instagram .container {
+  .instagram .container {
     width: 92%;
   }
 
-  .home-instagram ul {
+  .instagram ul {
     margin: 4.4vw -2vw;
   }
 
-  .home-instagram ul li {
+  .instagram ul li {
     padding: 2vw;
     flex: 0 0 50%;
   }
@@ -2232,5 +2232,156 @@ body {
     object-fit: contain;
     margin-left: 0;
     margin-bottom: 2vw;
+  }
+}
+
+/* #Testimonials
+================================================== */
+.testimonials {
+  padding-top: 3.125vw;
+}
+
+.testimonials .container {
+  width: 62.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.testimonials .container > h1 {
+  margin-bottom: 1vw;
+}
+
+.testimonials ul {
+  margin-top: 5.2vw;
+  margin-bottom: 3.125vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.testimonials ul li {
+  flex: 0 0 47.5%;
+  border-radius: .5vw;
+  box-shadow: 0 3px 12px rgba(0, 0, 0, .1);
+  padding: 1.5vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.testimonials ul li:nth-child(odd) {
+  margin-top: 3.125vw;
+  margin-bottom: 0!important;
+}
+
+.testimonials ul li:not(:last-child) {
+  margin-bottom: 3.125vw;
+} 
+
+.testimonials ul li:last-child {
+  align-self: flex-start;
+}
+
+.testimonials ul li .top .img,
+.testimonials ul li .top .img img {
+  width: 100%;
+}
+
+.testimonials ul li .top .quottes {
+  width: 1.77vw;
+  margin-bottom: .5vw;
+}
+
+.testimonials ul li .top .quottes img {
+  width: 100%;
+}
+
+.testimonials ul li .bottom {
+  margin-top: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding-top: 1.5vw;
+}
+
+.testimonials ul li .bottom h2 {
+  position: relative;
+  padding-top: 1.5vw;
+}
+
+.testimonials ul li .bottom h2::after {
+  content: '';
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 3px;
+  width: 2.7vw;
+  background-color: #FF03CD;
+}
+
+.testimonials ul li .bottom .img img {
+  width: 1.35vw;
+}
+
+@media (max-width: 1023.98px) {
+  .testimonials {
+    margin-top: 0;
+    padding: 8vw 0 4vw 0;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    margin-top: -10vw;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .testimonials .container {
+    width: 100%;
+    padding: 0 4%;
+  }
+
+  .testimonials .container > h1 {
+    margin-bottom: 2.66vw;
+  }
+  
+  .testimonials ul {
+    margin-top: 8vw;
+    margin-bottom: 6.66vw;
+    display: block;
+  }
+  
+  .testimonials ul li {
+    border-radius: 1.33vw;
+    padding: 4vw;
+  }
+  
+  .testimonials ul li:nth-child(odd) {
+    margin-top: 0;
+  }
+  
+  .testimonials ul li:not(:last-child) {
+    margin-bottom: 6.66vw!important;
+  } 
+  
+  .testimonials ul li .top .quottes {
+    width: 4.66vw;
+    margin-bottom: 1.33vw;
+  }
+  
+  .testimonials ul li .bottom {
+    padding-top: 4vw;
+  }
+  
+  .testimonials ul li .bottom h2 {
+    padding-top: 4vw;
+  }
+  
+  .testimonials ul li .bottom h2::after {
+    width: 6.93vw;
+  }
+
+  .testimonials ul li .bottom .img img {
+    width: 5.6vw;
   }
 }
