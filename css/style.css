@@ -83,6 +83,10 @@ body {
   box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
+.btn.border {
+  border: 1px solid black;
+}
+
 @media (max-width: 1023.98px) {
   .btn {
     font-size: 4.53vw;
@@ -2727,5 +2731,367 @@ body {
     align-items: center;
     justify-content: center;
     width: 100%;
+  }
+}
+
+/* #Size Popup
+================================================== */
+.size-popup {
+  opacity: 0;
+  visibility: hidden;
+  transition: all .4s ease;
+  display: none;
+}
+
+.size-popup.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.size-popup .popup-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, .6);
+}
+
+.size-popup .popup-content {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  width: 72.9%;
+  display: flex;
+  flex-direction: row-reverse;
+  border-radius: .5vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+  overflow: hidden;
+}
+
+.size-popup .popup-header {
+  position: absolute;
+  top: 1vw;
+  right: 1vw;
+}
+
+.size-popup .popup-close img {
+  width: 2.18vw;
+}
+
+.size-popup .popup-banner {
+  flex: 0 0 42.8%;
+}
+
+.size-popup .popup-banner img {
+  width: 100%;
+}
+
+.size-popup .popup-body {
+  padding: 3.125vw 3.9vw;
+  flex-grow: 1;
+}
+
+.size-popup .steps,
+.size-popup .step {
+  height: 100%;
+}
+
+.size-popup .step {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.size-popup .step.active {
+  display: flex;
+}
+
+.size-popup .step:nth-child(1) h3 {
+  margin-bottom: .5vw;
+}
+
+.size-popup .measures {
+  display: flex;
+  justify-content: space-between;
+  margin: 3.5vw 0 2.35vw 0;
+  padding: 0 2vw;
+}
+
+.size-popup .measure {
+  flex: 0 0 10vw;
+}
+
+.size-popup .measure img {
+  width: 100%;
+  margin-bottom: .75vw;
+}
+
+.size-popup .measure h4 {
+  margin-bottom: .25vw;
+}
+
+.size-popup .products {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.size-popup .products li {
+  flex: 0 0 9.375vw;
+}
+
+.size-popup .products li:nth-child(1),
+.size-popup .products li:nth-child(2),
+.size-popup .products li:nth-child(3) {
+  padding: 0 0 2vw 0;
+}
+
+.size-popup .products img {
+  width: 100%;
+}
+
+.size-popup .step:nth-child(3) h3 {
+  margin-bottom: 2vw;
+}
+
+.size-popup .step:nth-child(3) h3 br {
+  display: none;
+}
+
+.size-popup .step:nth-child(2) h3 {
+  margin-bottom: 1.5vw;
+}
+
+.size-popup .structure {
+  margin-bottom: 2.6vw;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.size-popup .structure .btn {
+  padding: .2vw 2vw;
+  opacity: .5;
+}
+
+.size-popup .structure .btn:hover {
+  background-color: white;
+  color: black;
+  opacity: 1;
+}
+
+.size-popup .structure .btn.active {
+  opacity: 1;
+}
+
+.size-popup .sliders {
+  margin-bottom: 4vw;
+  width: 100%;
+}
+
+.size-popup .sliders h4 {
+  margin-bottom: 1vw;
+  text-align: right;
+}
+
+.size-popup .slider:first-of-type {
+  margin-bottom: 4vw;
+}
+
+/* No Ui Slider Override */
+.size-popup .noUi-horizontal {
+  height: 0.83vw;
+  border-radius: .5vw;
+  background: #F5F5F5;
+  border: none;
+}
+
+.size-popup .noUi-handle {
+  border-radius: 50%;
+  background: #FB0077;
+  border: 3px solid white;
+  width: 1.3vw;
+  height: 1.3vw;
+  top: -.25vw;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, .16);
+}
+
+.size-popup .noUi-txt-dir-rtl.noUi-horizontal .noUi-handle {
+  left: -.65vw;
+}
+
+.size-popup .noUi-handle::before,
+.size-popup .noUi-handle::after {
+  display: none;
+}
+
+.size-popup .noUi-marker {
+  height: 0.729vw!important;
+  background: #707070;
+}
+
+.size-popup .noUi-value {
+  font-size: 1.04vw;
+  color: black;
+}
+
+@media (max-width: 1023.98px) {
+  .size-popup .popup-content {
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    border-radius: 0;
+    box-shadow: none;
+  }
+  
+  .size-popup .popup-header {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2.66vw 0;
+    border-bottom-left-radius: 7vw;
+    border-bottom-right-radius: 7vw;
+  }
+
+  .size-popup .close {
+    position: absolute;
+    top: 2.66vw;
+    right: 4vw;
+  }
+
+  .size-popup .popup-close img {
+    width: 8vw;
+  }
+  
+  .size-popup .popup-banner {
+    flex: 0;
+  }
+  
+  .size-popup .popup-banner img {
+    width: 100%;
+  }
+  
+  .size-popup .popup-body {
+    padding: 8vw;
+    height: 100%;
+    overflow-y: auto;
+    border-top-left-radius: 7vw;
+    border-top-right-radius: 7vw;
+    margin-top: -5vw;
+    background-color: white;
+  }
+
+  .size-popup .steps,
+  .size-popup .step {
+    height: auto;
+  }
+  
+  .size-popup .step {
+    justify-content: flex-start;
+  }
+   
+  .size-popup .step:nth-child(1) h3 {
+    margin-bottom: 2.66vw;
+  }
+  
+  .size-popup .measures {
+    margin: 6.66vw 0 8vw 0;
+    padding: 0;
+  }
+  
+  .size-popup .measure {
+    flex: 0 0 35.33vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .size-popup .measure img {
+    width: 25.33vw;
+    margin-bottom: 2vw;
+  }
+  
+  .size-popup .measure h4 {
+    margin-bottom: .25vw;
+  }
+  
+  .size-popup .products li {
+    flex: 0 0 50%;
+    padding: 0 2vw!important;
+    margin-bottom: 7.33vw;
+  }
+  
+  .size-popup .products img {
+    width: 100%;
+  }
+  
+  .size-popup .step:nth-child(3) h3 {
+    margin-bottom: 8.66vw;
+  }
+  
+  .size-popup .step:nth-child(3) h3 br {
+    display: block;
+  }
+  
+  .size-popup .step:nth-child(2) h3 {
+    margin-bottom: 4.66vw;
+  }
+  
+  .size-popup .structure {
+    margin-bottom: 11.33vw;
+  }
+  
+  .size-popup .structure .btn {
+    padding: .7vw 3vw;
+    opacity: .5;
+  }
+  
+  .size-popup .sliders {
+    margin-bottom: 15vw;
+    width: 100%;
+  }
+  
+  .size-popup .sliders h4 {
+    margin-bottom: 2vw;
+  }
+  
+  .size-popup .slider:first-of-type {
+    margin-bottom: 15vw;
+  }
+
+  /* No Ui Slider Override */
+  .size-popup .noUi-horizontal {
+    height: 4vw;
+    border-radius: 1.6vw;
+  }
+
+  .size-popup .noUi-handle {
+    border: 3px solid white;
+    width: 6vw;
+    height: 6vw;
+    top: -1vw;
+  }
+
+  .size-popup .noUi-txt-dir-rtl.noUi-horizontal .noUi-handle {
+    left: -3.25vw;
+  }
+
+  .size-popup .noUi-marker {
+    height: 2vw!important;
+  }
+
+  .size-popup .noUi-value {
+    font-size: 2.8vw;
   }
 }

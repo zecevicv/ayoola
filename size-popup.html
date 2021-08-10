@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="he-IL" dir="rtl">
+
+<head>
+  <!-- Meta -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ayoola">
+  <title>Ayoola</title>
+
+  <!-- Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Assistant:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <!-- Style (Vendor) -->
+  <link rel="stylesheet" href="css/swiper-bundle.min.css">
+  <link rel="stylesheet" href="css/nouislider.min.css">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/elevate-framework.css">
+  <link rel="stylesheet" href="css/style.css">
+
+  <!-- Favicon -->
+  <link rel="icon" href="img/favicon.png">
+</head>
+
+<body>
+
+  <!-- Popup Toggler -->
+  <a href="#" class="popup-toggler btn btn-primary" data-popup="#size-popup">
+    Size Popup Toggler
+  </a>
+
+  <!-- Size Popup -->
+  <div class="popup size-popup" id="size-popup">
+    <!-- Backdrop -->
+    <div class="popup-backdrop"></div>
+    <!-- Content -->
+    <div class="popup-content">
+      <!-- Header -->
+      <div class="popup-header">
+        <h2 class="f-m-42 d-mobile">תא המדידה</h2>
+        <!-- Close -->
+        <div class="close">
+          <a href="#" class="popup-close">
+            <img src="img/icons/close-icon.svg" alt="ayoola-close-icon">
+          </a>
+        </div>
+      </div>
+      <!-- Banner -->
+      <div class="popup-banner">
+        <picture>
+          <source media="(min-width:1024px)" srcset="img/size-popup/banner.jpg">
+          <img src="img/size-popup/banner-mobile.jpg" alt="ayoola-banner-img">
+        </picture>
+      </div>
+      <!-- Body -->
+      <div class="popup-body">
+        <!-- Steps -->
+        <ul class="steps">
+          <!-- Step -->
+          <li class="step active">
+            <h3 class="f-d-30 f-m-42">?איך מודדים</h3>
+            <p class="f-d-20 f-m-30">,בין אם יש לך שאלה בוערת הערה חשובה או שבא לך לשלוח לנו מחמאה !שתגרום לנו להסמיק אנחנו תמיד רוצות לשמוע מה יש לך להגיד ותמיד-תמיד עונות</p>
+            <div class="measures">
+              <div class="measure">
+                <img src="img/size-popup/measure-1.png" alt="ayoola-icon">
+                <h4 class="f-d-22 f-m-30">היקף החזה</h4>
+                <p class="f-d-20 f-m-30">מתחי את סרט המדידה
+                  בחלקו הרחב של החזה</p>
+              </div>
+              <div class="measure">
+                <img src="img/size-popup/measure-2.png" alt="ayoola-icon">
+                <h4 class="f-d-22 f-m-30">היקף מתחת לחזה</h4>
+                <p class="f-d-20 f-m-30">מתחי את סרט המדידה 
+                  מתחת לקו החזה</p>
+              </div>
+            </div>
+            <a href="#" class="btn btn-primary">המשך</a>
+          </li>
+          <!-- Step -->
+          <li class="step">
+            <h3 class="f-d-30 f-m-42">
+              רוצה לגלות את הדגמים
+              <br>?המומלצים למבני החזה השונים
+            </h3>
+            <div class="sliders">
+              <h4 class="f-d-22 f-m-36">היקף החזה</h4>
+              <div class="slider">
+                <div id="sizePopupSlider1"></div>
+              </div>
+              <h4 class="f-d-22 f-m-36">היקף מתחת לחזה</h4>
+              <div class="slider">
+                <div id="sizePopupSlider2"></div>
+              </div>
+            </div>
+            <h3 class="f-d-30 f-m-42">בחרי את מבנה החזה שלך</h3>
+            <div class="structure">
+              <a href="#" class="btn btn-secondary border active">שטוח/עדין</a>
+              <a href="#" class="btn btn-secondary border">נפול</a>
+              <a href="#" class="btn btn-secondary border">מרוקן</a>
+              <a href="#" class="btn btn-secondary border">יציב</a>
+            </div>
+            <a href="#" class="btn btn-primary">המשך</a>
+          </li>
+          <!-- Step -->
+          <li class="step">
+            <h3 class="f-d-30 f-m-42">
+              הדגמים המומלצים
+              <br>למבני החזה שבמחרת   
+            </h3>
+            <!-- Products -->
+            <ul class="products">
+              <!-- Product -->
+              <li>
+                <img src="img/size-popup/img-1.jpg" alt="ayoola-icon">
+                <p class="f-d-20 f-m-30">אנאל</p>
+                <p class="f-d-24 f-m-40 bold underline-purple center">M</p>
+              </li>
+              <!-- Product -->
+              <li>
+                <img src="img/size-popup/img-2.jpg" alt="ayoola-icon">
+                <p class="f-d-20 f-m-30">אנאל</p>
+                <p class="f-d-24 f-m-40 bold underline-purple center">M</p>
+              </li>
+              <!-- Product -->
+              <li>
+                <img src="img/size-popup/img-3.jpg" alt="ayoola-icon">
+                <p class="f-d-20 f-m-30">אנאל</p>
+                <p class="f-d-24 f-m-40 bold underline-purple center">M</p>
+              </li>
+              <!-- Product -->
+              <li>
+                <img src="img/size-popup/img-4.jpg" alt="ayoola-icon">
+                <p class="f-d-20 f-m-30">אנאל</p>
+                <p class="f-d-24 f-m-40 bold underline-purple center">XL</p>
+              </li>
+              <!-- Product -->
+              <li>
+                <img src="img/size-popup/img-5.jpg" alt="ayoola-icon">
+                <p class="f-d-20 f-m-30">אנאל</p>
+                <p class="f-d-24 f-m-40 bold underline-purple center">S</p>
+              </li>
+              <!-- Product -->
+              <li>
+                <img src="img/size-popup/img-6.jpg" alt="ayoola-icon">
+                <p class="f-d-20 f-m-30">אנאל</p>
+                <p class="f-d-24 f-m-40 bold underline-purple center">M</p>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Script (Vendor) -->
+  <script src="js/swiper-bundle.min.js"></script>
+  <script src="js/nouislider.min.js"></script>
+  <script src="js/gsap.min.js"></script>
+
+  <!-- Script -->
+  <script src="js/app.js"></script>
+
+</body>
+
+</html>
