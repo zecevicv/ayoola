@@ -1,0 +1,10 @@
+/* #Footer
+================================================== */
+.footer-container-wrapper .footer-text-vip-content .button-vip-impress-me-box .button-vip-impress-me {
+  padding: .1vw 2vw;
+}
+
+.footer-container-wrapper .footer-text-vip-content {
+  display: flex;
+  align-items: flex-end;
+}
