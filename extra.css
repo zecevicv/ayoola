@@ -5,6 +5,14 @@
     padding: .5rem 0;
   }
 
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form .search-submit {
+    padding: 0 1vw;
+  }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form .search-input {
+    flex: 0;
+    flex-grow: 1;
+  }
 }
 
 /* #Footer
