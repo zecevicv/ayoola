@@ -190,7 +190,13 @@
   .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-block form .login-remember {
     margin-bottom: 1.3vw;
   }
+}
 
+@media (max-width: 1024px) {
+  .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-list {
+    margin: 0 auto 8rem auto;
+    max-width: 85%;
+  }
 }
 
 /* #Footer
