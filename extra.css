@@ -99,6 +99,10 @@
     width: 92%;
     flex-direction: row;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form {
+    height: 100%;
+  }
 }
 
 /* #Footer
