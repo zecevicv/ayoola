@@ -40,6 +40,10 @@
   .header-container-wrapper .container-content .top-row-text-wrapper {
     left: 4vw;
   }
+
+  .header-container-wrapper .header-nav-row-wrapper {
+    width: 92%;
+  }
 }
 
 /* #Footer
