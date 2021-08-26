@@ -77,7 +77,8 @@
     position: static;
   }
 
-  .header-container-wrapper .container-content .header-search-block-wrapper.open .header-search-block {
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block {
+    position: static;
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper.open .bg-search {
