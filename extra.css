@@ -104,6 +104,10 @@
     height: 100%;
     border-radius: 500px;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form .search-input {
+    height: 100%;
+  }
 }
 
 /* #Footer
