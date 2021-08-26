@@ -131,6 +131,11 @@
     border-radius: 1.82292rem;
     padding: 0 1.04167rem;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container {
+    width: 92%;
+    padding: 0;
+  }
 }
 
 /* #Footer
