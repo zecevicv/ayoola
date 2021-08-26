@@ -27,6 +27,10 @@
   .header-container-wrapper .header-nav-list .header-nav-item.circle button, .header-container-wrapper .header-nav-list .header-nav-item .goi-heart-filled {
     font-size: 4rem;
   }
+
+  .header-container-wrapper .header-nav-list.f-left .header-nav-item {
+    margin-right: 2.66vw;
+  }
 }
 
 /* #Footer
