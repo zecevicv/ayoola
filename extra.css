@@ -115,6 +115,12 @@
     height: 100%;
     flex: 0 0 16vw;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .search-title {
+    padding: 0;
+    font-size: 4rem;
+    margin-bottom: 4rem;
+  }
 }
 
 /* #Footer
