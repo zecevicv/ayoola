@@ -172,6 +172,10 @@
     height: auto;
     object-fit: initial;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .link-to-shop a {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
