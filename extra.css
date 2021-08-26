@@ -13,3 +13,7 @@
   display: flex;
   align-items: flex-end;
 }
+
+.footer-container-wrapper .footer-nav-box-content {
+  padding-bottom: 0;
+}
