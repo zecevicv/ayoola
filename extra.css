@@ -179,6 +179,12 @@
   }
 }
 
+/* #Login
+================================================== */
+.side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-list {
+  margin: 0 auto 3.125rem auto;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
