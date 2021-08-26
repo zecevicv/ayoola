@@ -71,6 +71,10 @@
   .header-container-wrapper .container-content .header-search-block-wrapper {
     z-index: 110;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block {
+    height: 14.13vw;
+  }
 }
 
 /* #Footer
