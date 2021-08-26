@@ -23,6 +23,10 @@
     align-items: center;
     justify-content: center;
   }
+
+  .header-container-wrapper .header-nav-list .header-nav-item.circle button, .header-container-wrapper .header-nav-list .header-nav-item .goi-heart-filled {
+    font-size: 5rem;
+  }
 }
 
 /* #Footer
