@@ -75,7 +75,7 @@
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block {
     height: 14.13vw;
     top: 0;
-    transform: translateY(100%);
+    transform: translateY(-100%);
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper.open .header-search-block {
