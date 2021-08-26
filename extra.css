@@ -20,3 +20,11 @@
     padding-top: 2.2vw;
   }
 }
+
+@media (max-width: 1023.98px) {
+  .footer-container-wrapper .footer-pay-icon,
+  .footer-container-wrapper .footer-site-logo {
+    display: flex;
+    justify-content: center;
+  }
+}
