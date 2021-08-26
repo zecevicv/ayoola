@@ -93,7 +93,8 @@
     border-radius: 50%;
   }
 
-  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container-form {
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container-form,
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .popular-search-container {
     width: 92%;
   }
 }
