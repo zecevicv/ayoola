@@ -1,6 +1,6 @@
 /* #Menu
 ================================================== */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .header-container-wrapper .container-content .header-nav-block-wrapper .header-submenu-container .sub-menu-container .nav-links-block .nav-links .item-link {
     padding: .5rem 0;
   }
@@ -27,11 +27,11 @@
   .header-container-wrapper .header-nav-list .header-nav-item.circle button, .header-container-wrapper .header-nav-list .header-nav-item .goi-heart-filled {
     font-size: 4rem;
   }
-}
+} */
 
 /* #Footer
 ================================================== */
-@media (min-width: 1024px) {
+/* @media (min-width: 1024px) {
   .footer-container-wrapper .footer-container .footer-container-content {
     align-items: flex-end;
   }
@@ -66,4 +66,4 @@
   .footer-container-wrapper .social-footer-content {
     margin-bottom: 12.66vw;
   }
-}
+} */
