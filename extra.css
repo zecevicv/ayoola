@@ -1,5 +1,9 @@
 /* #Footer
 ================================================== */
+.footer-container-wrapper .footer-container .footer-container-content {
+  align-items: flex-end;
+}
+
 .footer-container-wrapper .footer-text-vip-content .button-vip-impress-me-box .button-vip-impress-me {
   padding: .1vw 2vw;
   margin-right: 1.7vw;
