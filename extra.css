@@ -18,7 +18,7 @@
 
 @media (max-width: 1023.98px) {
   .header-container-wrapper .header-nav-list .header-nav-item.circle button, .header-container-wrapper .header-nav-list .header-nav-item.circle a {
-    padding: 1.5rem;
+    padding: 1.75rem;
     display: flex;
     align-items: center;
     justify-content: center;
