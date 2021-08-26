@@ -36,6 +36,10 @@
     text-align: right;
     padding-right: 4vw;
   }
+
+  .header-container-wrapper .container-content .top-row-text-wrapper {
+    left: 4vw;
+  }
 }
 
 /* #Footer
