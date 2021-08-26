@@ -16,6 +16,12 @@
   }
 }
 
+@media (max-width: 1023.98px) {
+  .header-container-wrapper .header-nav-list .header-nav-item.circle button, .header-container-wrapper .header-nav-list .header-nav-item.circle a {
+    padding: 1.5rem;
+  }
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
