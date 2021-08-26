@@ -74,6 +74,7 @@
 
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block {
     height: 16.66vw;
+    box-shadow: none;
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper.open .search-result-block {
