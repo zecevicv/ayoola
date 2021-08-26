@@ -83,12 +83,18 @@
 
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block {
     top: -16.66vw;
+    display: flex;
+    align-items: center;
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-close-btn-box .header-search-close-btn {
     width: 8rem;
     height: 8rem;
     border-radius: 50%;
+  }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container-form {
+    width: 92%;
   }
 }
 
