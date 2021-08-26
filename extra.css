@@ -107,6 +107,7 @@
 
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form .search-input {
     height: 100%;
+    padding: 0 2vw;
   }
 }
 
