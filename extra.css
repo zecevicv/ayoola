@@ -80,6 +80,7 @@
   .header-container-wrapper .container-content .header-search-block-wrapper.open .search-result-block {
     top: 16.66vw;
     height: calc(100vh - 16.66vw);
+    overflow-y: auto;
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block {
@@ -140,6 +141,7 @@
   .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item .product-item .product-meta .product-price,
   .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item .product-item .product-meta .product-name {
     font-size: 4rem;
+    margin-bottom: 2vw;
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item {
@@ -158,6 +160,7 @@
 
   .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item .product-item .product-image {
     max-width: 100%;
+    margin-bottom: 3.2vw;
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item .product-item .product-image img {
