@@ -48,6 +48,10 @@
   .header-container-wrapper .header-nav-list {
     top: 3rem;
   }
+
+  .header-container-wrapper .header-nav-list.f-right .header-nav-item {
+    margin-left: 2.66vw;
+  }
 }
 
 /* #Footer
