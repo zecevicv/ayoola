@@ -126,6 +126,7 @@
   .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .popular-search-container .popular-search-list .popular-item .popular-search-link {
     height: auto;
     font-size: 4rem;
+    line-height: 1.5;
     border-radius: 1.82292rem;
     padding: 0 1.04167rem;
   }
