@@ -62,6 +62,10 @@
   .header-container-wrapper .header-nav-list.f-right .header-nav-item {
     margin-left: 2.66vw;
   }
+
+  .header-container-wrapper .header-nav-btn i {
+    margin-left: 1vw;
+  }
 }
 
 /* #Footer
