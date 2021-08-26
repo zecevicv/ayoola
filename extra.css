@@ -44,6 +44,10 @@
   .header-container-wrapper .header-nav-row-wrapper {
     width: 92%;
   }
+
+  .header-container-wrapper .header-nav-list {
+    top: 3rem;
+  }
 }
 
 /* #Footer
