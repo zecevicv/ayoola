@@ -146,6 +146,10 @@
     width: 50%;
     padding: 2rem;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item .product-item {
+    flex-direction: column;
+  }
 }
 
 /* #Footer
