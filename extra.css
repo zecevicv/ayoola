@@ -136,6 +136,11 @@
     width: 92%;
     padding: 0;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item .product-item .product-meta .product-price,
+  .header-container-wrapper .container-content .header-search-block-wrapper .search-result-block .product-search-list-container .product-search-list .product-search-item .product-item .product-meta .product-name {
+    font-size: 4rem;
+  }
 }
 
 /* #Footer
