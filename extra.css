@@ -1,3 +1,12 @@
+/* #Menu
+================================================== */
+@media (min-width: 1024px) {
+  .header-container-wrapper .container-content .header-nav-block-wrapper .header-submenu-container .sub-menu-container .nav-links-block .nav-links .item-link {
+    padding: .5rem 0;
+  }
+
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
