@@ -27,4 +27,8 @@
     display: flex;
     justify-content: center;
   }
+
+  .footer-container-wrapper .footer-site-logo img {
+    width: 48.8vw;
+  }
 }
