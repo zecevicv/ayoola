@@ -73,6 +73,10 @@
     overflow-y: auto;
   }
 
+  .header-container-wrapper .container-content .header-search-block-wrapper.open {
+    height: calc(100vh - 6.26vw);
+  }
+
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block {
     height: 16.66vw;
     box-shadow: none;
