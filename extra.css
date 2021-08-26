@@ -181,8 +181,16 @@
 
 /* #Login
 ================================================== */
-.side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-list {
-  margin: 0 auto 3.125rem auto;
+@media (min-width: 1024px) {
+  .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-list {
+    margin: 0 auto 3.125rem auto;
+  }
+  
+  .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-block form .login-username, .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-block form .login-password, .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-block form .registration-username, .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-block form .registration-mail,
+  .side-page-lightbox-wrapper .side-page-lightbox-container.login-form .tab-block form .login-remember {
+    margin-bottom: 1.3vw;
+  }
+
 }
 
 /* #Footer
