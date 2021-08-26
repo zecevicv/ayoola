@@ -109,6 +109,11 @@
     height: 100%;
     padding: 0 2vw;
   }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form .search-submit {
+    width: auto;
+    height: 100%;
+  }
 }
 
 /* #Footer
