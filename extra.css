@@ -1,5 +1,11 @@
 /* #Menu
 ================================================== */
+.header-container-wrapper .header-nav-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (min-width: 1024px) {
   .header-container-wrapper .container-content .header-nav-block-wrapper .header-submenu-container .sub-menu-container .nav-links-block .nav-links .item-link {
     padding: .5rem 0;
