@@ -113,6 +113,7 @@
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form .search-submit {
     width: auto;
     height: 100%;
+    flex: 0 0 16vw;
   }
 }
 
