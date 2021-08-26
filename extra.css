@@ -31,4 +31,8 @@
   .footer-container-wrapper .footer-site-logo img {
     width: 48.8vw;
   }
+
+  .footer-container-wrapper .social-footer-content {
+    margin-bottom: 12.66vw;
+  }
 }
