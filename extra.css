@@ -12,6 +12,7 @@
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block .header-search-container form .search-input {
     flex: 0;
     flex-grow: 1;
+    outline: none!important;
   }
 }
 
