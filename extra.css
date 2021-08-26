@@ -68,13 +68,19 @@
   }
 
   /* Search */
-  /* .header-container-wrapper .container-content .header-search-block-wrapper {
+  .header-container-wrapper .container-content .header-search-block-wrapper {
     z-index: 110;
   }
 
   .header-container-wrapper .container-content .header-search-block-wrapper .header-search-block {
     height: 14.13vw;
-  } */
+    top: 0;
+    transform: translateY(100%);
+  }
+
+  .header-container-wrapper .container-content .header-search-block-wrapper.open .header-search-block {
+    transform: translateY(0);
+  }
 }
 
 /* #Footer
