@@ -78,6 +78,7 @@
 
   .header-container-wrapper .container-content .header-search-block-wrapper.open .search-result-block {
     top: 16.66vw;
+    height: calc(100vh - 16.66vw);
   }
 }
 
