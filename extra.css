@@ -351,6 +351,12 @@
   padding-bottom: 2.6rem;
 }
 
+@media (max-width: 1023.98px) {
+  .single-product-content-container {
+    display: block;
+  }
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
