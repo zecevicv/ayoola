@@ -236,6 +236,7 @@
 
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box .quantity-select::after {
   content: '';
+  display: block;
   position: absolute;
   top: 50%;
   left: 1vw;
