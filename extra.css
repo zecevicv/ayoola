@@ -269,6 +269,10 @@
   right: 1vw;
 }
 
+.ayoola-side-mini-cart .woocommerce-mini-cart-container .woocommerce-mini-cart-body .total-cart-items-row {
+  margin-top: 1.3rem;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
