@@ -322,6 +322,10 @@
   color: black;
 }
 
+.woocommerce div.product form.cart {
+  margin-top: 1.5vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
