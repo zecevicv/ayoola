@@ -384,8 +384,8 @@
     display: none;
   }
 
-  #product-main-gallery .swiper-slider-container .swiper-button-prev:after,
-  #product-main-gallery .swiper-slider-container .swiper-button-next:after {
+  #product-main-gallery .swiper-button-prev:after,
+  #product-main-gallery .swiper-button-next:after {
     font-size: 6vw;
   }
 
