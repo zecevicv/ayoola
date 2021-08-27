@@ -394,6 +394,10 @@
     z-index: 1;
     position: relative;
   }
+
+  .the-top-of-the-top-slider-wrapper .title-row-wrapp .slider-title {
+    font-size: 6.66vw;
+  }
 }
 
 /* #Footer
