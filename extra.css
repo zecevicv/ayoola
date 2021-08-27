@@ -232,7 +232,7 @@
   display: block;
   position: absolute;
   top: 50%;
-  left: 1vw;
+  left: .7vw;
   width: .325vw;
   height: .68vw;
   background-image: url('img/icons/chevron-left.svg');
