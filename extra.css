@@ -227,6 +227,8 @@
   height: 1.66rem;
   border-radius: 0;
   font-size: 1.25vw;
+  font-family: inherit;
+  outline: none!important;
 }
 
 /* #Footer
