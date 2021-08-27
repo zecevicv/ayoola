@@ -432,6 +432,10 @@
     margin-bottom: 2.66vw;
   }
 
+  .woocommerce div.product p.price, .woocommerce div.product span.price {
+    font-size: 9.33rem;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
