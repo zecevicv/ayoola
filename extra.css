@@ -260,6 +260,10 @@
   line-height: 1.6;
 }
 
+.ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .remove-btn-box {
+  top: 41%;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
