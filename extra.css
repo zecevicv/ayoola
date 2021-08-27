@@ -444,6 +444,10 @@
     font-size: 5.6vw;
   }
 
+  .woocommerce div.product form.cart .reset_variations {
+    font-size: 3.46em;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
