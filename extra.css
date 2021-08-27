@@ -360,6 +360,10 @@
     padding-top: 0;
     margin-bottom: 17.33vw;
   }
+
+  .product-link-to-shop-wrapp {
+    display: none;
+  }
 }
 
 /* #Footer
