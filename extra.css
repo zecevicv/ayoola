@@ -441,6 +441,14 @@
     margin-bottom: 20vw;
   }
 
+  .woocommerce div.product form.cart .add-to-cart-wrapper .single_add_to_cart_button {
+    height: 10.66rem;
+    border-radius: 500px;
+    padding: 0 12rem;
+    font-size: 5.6rem;
+    line-height: 1;
+  }
+
   .woocommerce div.product form.cart .variations td.label {
     font-size: 5.6vw;
   }
