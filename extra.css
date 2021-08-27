@@ -447,6 +447,7 @@
   .woocommerce div.product form.cart .reset_variations {
     font-size: 3.46em;
     margin-top: 2vw;
+    display: block;
   }
 
   .the-top-of-the-top-slider-wrapper {
