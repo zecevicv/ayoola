@@ -234,7 +234,7 @@
   position: relative;
 }
 
-.ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box .quantity-select::after {
+.ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box .quantity-select::before {
   content: '';
   display: block;
   position: absolute;
