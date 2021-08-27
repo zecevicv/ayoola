@@ -273,11 +273,25 @@
   margin-top: 1.3rem;
 }
 
-@media (min-width: 1024px) {
-
-}
-
 @media (max-width: 1023.98px) {
+  .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box {
+    height: 5.6rem;
+  }
+  
+  .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box::before {
+    top: 50%;
+    left: 2.66vw;
+    width: 1.08vw;
+    height: 2.28vw;
+  }
+  
+  .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box .quantity-select {
+    min-width: 12rem;
+    height: 5.6rem;
+    font-size: 4.8vw;
+    padding-right: 2.66vw;
+  }
+
   .side-page-lightbox-wrapper .side-page-lightbox-container .close-btn-box {
     top: 2.66vw;
     right: 2.66vw;
