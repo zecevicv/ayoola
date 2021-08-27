@@ -406,6 +406,11 @@
   .the-top-of-the-top-slider-wrapper .title-row-wrapp .slider-title {
     font-size: 6.66vw;
   }
+
+  .the-top-of-the-top-slider-wrapper .swiper-slider-container .swiper-button-prev:after,
+  .the-top-of-the-top-slider-wrapper .swiper-slider-container .swiper-button-next:after {
+    font-size: 6vw;
+  }
 }
 
 /* #Footer
