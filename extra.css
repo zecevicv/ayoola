@@ -395,6 +395,10 @@
     position: relative;
   }
 
+  .the-top-of-the-top-slider-wrapper .title-row-wrapp {
+    margin-bottom: 6.66vw;
+  }
+
   .the-top-of-the-top-slider-wrapper .title-row-wrapp .slider-title {
     font-size: 6.66vw;
   }
