@@ -384,6 +384,11 @@
     display: none;
   }
 
+  #product-main-gallery .swiper-slider-container .swiper-button-prev:after,
+  #product-main-gallery .swiper-slider-container .swiper-button-next:after {
+    font-size: 6vw;
+  }
+
   .woocommerce div.product div.summary {
     max-width: 100%;
     padding: 8vw 4% 0 4%;
@@ -400,7 +405,7 @@
   }
 
   .single-product-content-container .tabs-container-wrapper .tab-content-wrapper .open-close-content {
-    padding: 0;
+    padding: 2.4vw 0;
     font-size: 5.6rem;
     line-height: 1;
   }
