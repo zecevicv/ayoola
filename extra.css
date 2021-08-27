@@ -230,7 +230,7 @@
   font-family: inherit;
   line-height: 1;
   outline: none!important;
-  display: inline-flex;
+  padding-bottom: .3vw;
 }
 
 /* #Footer
