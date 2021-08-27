@@ -225,6 +225,7 @@
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box {
   height: 1.66rem;
   position: relative;
+  background-color: transparent;
 }
 
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box::before {
@@ -250,6 +251,7 @@
   outline: none!important;
   appearance: none;
   padding-right: .7vw;
+  background-color: transparent;
 }
 
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .product-title-box {
