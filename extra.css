@@ -438,6 +438,7 @@
 
   .woocommerce div.product form.cart {
     margin-top: 9.33vw;
+    margin-bottom: 16vw;
   }
 
   .woocommerce div.product form.cart .variations td.label {
