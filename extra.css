@@ -347,6 +347,10 @@
   margin: 4px 0 4px 19px;
 }
 
+.single-product-content-container .tabs-container-wrapper .tab-content-wrapper.open .product-content {
+  padding-bottom: 2.6rem;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
