@@ -309,6 +309,10 @@
   margin-bottom: .75rem;
 }
 
+.woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
+  width: 30.7vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
