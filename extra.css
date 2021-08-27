@@ -355,6 +355,11 @@
   .single-product-content-container {
     display: block;
   }
+
+  .container-wrapper.product-page {
+    padding-top: 0;
+    margin-bottom: 17.33vw;
+  }
 }
 
 /* #Footer
