@@ -243,6 +243,7 @@
   width: .325vw;
   height: .68vw;
   background-image: url('img/icons/chevron-left.svg');
+  z-index: 10;
 }
 
 /* #Footer
