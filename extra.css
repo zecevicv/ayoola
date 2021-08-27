@@ -520,6 +520,10 @@
   margin-bottom: 0;
 }
 
+.woocommerce-products-header .woocommerce-products-header__title {
+  margin-bottom: 7.6vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
