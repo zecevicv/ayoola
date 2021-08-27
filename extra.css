@@ -510,6 +510,16 @@
   }
 }
 
+/* #Shop/Category Page
+================================================== */
+.shop-count-and-ordering-container {
+  margin-bottom: 2.08333rem;
+}
+
+.shop-count-and-ordering-container .result-count-box {
+  margin-bottom: 0;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
