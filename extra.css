@@ -378,6 +378,10 @@
   .woocommerce #content div.product div.images, .woocommerce div.product div.images, .woocommerce-page #content div.product div.images, .woocommerce-page div.product div.images {
     width: 100%;
   }
+
+  #gowc-gallery-thumbnails {
+    display: none;
+  }
 }
 
 /* #Footer
