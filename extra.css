@@ -423,6 +423,10 @@
     line-height: 3.33rem;
   }
 
+  .share-links-row .share-links-container .share-link-box {
+    margin-left: 3.73rem;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
