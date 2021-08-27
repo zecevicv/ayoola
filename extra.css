@@ -454,6 +454,10 @@
     margin-bottom: 4vw;
   }
 
+  .woocommerce-product-details__short-description {
+    font-size: 4vw;
+  }
+
   .woocommerce div.product form.cart .variations td.label {
     font-size: 5.6vw;
   }
