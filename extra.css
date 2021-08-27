@@ -225,6 +225,7 @@
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box .quantity-select {
   min-width: 3.59rem;
   height: 1.66rem;
+  border-radius: 0;
 }
 
 /* #Footer
