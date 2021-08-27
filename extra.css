@@ -252,6 +252,11 @@
   padding-right: .7vw;
 }
 
+.ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .product-title-box,
+.ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container dl.variation {
+  margin-bottom: .5vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
