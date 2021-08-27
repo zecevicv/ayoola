@@ -334,6 +334,10 @@
   font-size: 1.66vw;
 }
 
+.woo-variation-swatches .variable-items-wrapper .variable-item:not(.radio-variable-item) {
+  padding: 6px;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
