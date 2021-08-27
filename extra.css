@@ -313,6 +313,10 @@
   width: 30.7vw;
 }
 
+#gowc-gallery-images {
+  margin-bottom: 1.45vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
