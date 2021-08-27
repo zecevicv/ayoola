@@ -236,7 +236,7 @@
   width: .325vw;
   height: .68vw;
   background-image: url('img/icons/chevron-left.svg');
-  z-index: 10;
+  z-index: -1;
   transform: translateY(-50%) rotate(-90deg);
 }
 
