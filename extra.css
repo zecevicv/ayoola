@@ -395,6 +395,10 @@
     position: relative;
   }
 
+  .the-top-of-the-top-slider-wrapper {
+    max-width: 92%;
+  } 
+
   .the-top-of-the-top-slider-wrapper .title-row-wrapp {
     margin-bottom: 6.66vw;
   }
