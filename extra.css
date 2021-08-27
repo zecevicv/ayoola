@@ -465,6 +465,11 @@
     margin-left: 2.45rem;
   }
 
+  .woocommerce div.product form.cart .add-to-cart-wrapper .quantity-box-wrapper .select-qty select {
+    font-size: 7.33rem;
+    height: auto;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
