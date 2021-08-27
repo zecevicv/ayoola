@@ -207,6 +207,10 @@
 /* #Instagram
 ================================================== */
 @media (max-width: 1023.98px) {
+  .instagram ul {
+    margin: 4.4vw -1.33vw;
+  }
+
   .instagram ul li {
     padding: 1.33vw;
   }
