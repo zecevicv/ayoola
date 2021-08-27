@@ -364,6 +364,10 @@
   .product-link-to-shop-wrapp {
     display: none;
   }
+
+  .shop-count-and-ordering-container {
+    padding: 0;
+  }
 }
 
 /* #Footer
