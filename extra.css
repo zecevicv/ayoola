@@ -399,6 +399,12 @@
     margin-top: 16rem;
   }
 
+  .single-product-content-container .tabs-container-wrapper .tab-content-wrapper .open-close-content {
+    padding: 1.04167rem 0;
+    font-size: 5.6rem;
+    line-height: 1.5625rem;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
