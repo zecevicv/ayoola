@@ -273,6 +273,21 @@
   margin-top: 1.3rem;
 }
 
+@media (min-width: 1024px) {
+
+}
+
+@media (max-width: 1023.98px) {
+  .side-page-lightbox-wrapper .side-page-lightbox-container .close-btn-box {
+    top: 2.66vw;
+    right: 2.66vw;
+  }
+  
+  .ayoola-side-mini-cart .woocommerce-mini-cart-container .woocommerce-mini-cart-body .total-cart-items-row {
+    margin-top: 1.3rem;
+  }
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
