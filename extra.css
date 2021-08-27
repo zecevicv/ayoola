@@ -338,6 +338,11 @@
   padding: 6px;
 }
 
+.variable-item:not(.radio-variable-item) {
+  width: 40px;
+  height: 40px;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
