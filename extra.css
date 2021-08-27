@@ -317,6 +317,11 @@
   margin-bottom: 1.45vw;
 }
 
+#product-main-gallery .swiper-button-next, 
+#product-main-gallery .swiper-button-prev {
+  color: black;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
