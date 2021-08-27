@@ -454,6 +454,11 @@
     margin-bottom: 9.33vw;
   }
 
+  .category-list-row {
+    font-size: 4vw;
+    margin-bottom: 9.33rem;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
