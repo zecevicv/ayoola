@@ -214,6 +214,10 @@
   .instagram ul li {
     padding: 1.33vw;
   }
+
+  .instagram .load-more {
+    width: 10vw;
+  }
 }
 
 /* #Footer
