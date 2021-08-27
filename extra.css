@@ -225,7 +225,6 @@
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box {
   height: 1.66rem;
   position: relative;
-  background-color: transparent;
 }
 
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .price-box-row .price-box-row-container .quantity-item-box::before {
@@ -237,7 +236,7 @@
   width: .325vw;
   height: .68vw;
   background-image: url('img/icons/chevron-left.svg');
-  z-index: -1;
+  z-index: 10;
   transform: translateY(-50%) rotate(-90deg);
 }
 
@@ -251,7 +250,6 @@
   outline: none!important;
   appearance: none;
   padding-right: .7vw;
-  background-color: transparent;
 }
 
 .ayoola-side-mini-cart ul.woocommerce-mini-cart .woocommerce-mini-cart-item .product-item-data-box .product-data-box .product-data-box-container .product-title-box {
