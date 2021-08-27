@@ -395,6 +395,10 @@
     position: relative;
   }
 
+  .single-product-content-container .tabs-container-wrapper {
+    margin-top: 16rem;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
