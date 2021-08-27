@@ -383,6 +383,17 @@
   #gowc-gallery-thumbnails {
     display: none;
   }
+
+  .woocommerce div.product div.summary {
+    max-width: 100%;
+    padding: 8vw 0 17.33vw 0;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    margin-top: -10vw;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
 }
 
 /* #Footer
