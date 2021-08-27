@@ -326,6 +326,10 @@
   margin-top: 1.5vw;
 }
 
+.woocommerce div.product form.cart .variations {
+  margin-bottom: 2.35vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
