@@ -450,6 +450,10 @@
     display: block;
   }
 
+  .woocommerce div.product form.cart .variations {
+    margin-bottom: 9.33vw;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
