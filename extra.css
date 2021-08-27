@@ -427,6 +427,10 @@
     margin-left: 3.73rem;
   }
 
+  .woocommerce div.product .product_title {
+    font-size: 7.33rem;
+  }
+
   .the-top-of-the-top-slider-wrapper {
     max-width: 92%;
   } 
