@@ -330,6 +330,10 @@
   margin-bottom: 2.35vw;
 }
 
+.woocommerce div.product form.cart .variations td.label {
+  font-size: 1.66vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
