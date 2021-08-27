@@ -386,7 +386,7 @@
 
   .woocommerce div.product div.summary {
     max-width: 100%;
-    padding: 8vw 0 17.33vw 0;
+    padding: 8vw 0 0 0;
     border-top-left-radius: 6vw;
     border-top-right-radius: 6vw;
     margin-top: -10vw;
