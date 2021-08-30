@@ -735,6 +735,10 @@
   .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation ul {
     display: flex;
   }
+
+  .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link {
+    flex: 0 0 33.3333%;
+  }
 }
 
 /* #Footer
