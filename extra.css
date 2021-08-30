@@ -808,7 +808,8 @@
     font-size: 5.6rem;
   }
 
-  .woocommerce-account.woocommerce-orders p, .woocommerce-account.woocommerce-view-order p {
+  .woocommerce-account.woocommerce-orders p, .woocommerce-account.woocommerce-view-order p,
+  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content p {
     font-size: 4vw;
   }
 }
