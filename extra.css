@@ -693,8 +693,7 @@
   text-align: left;
 }
 
-.woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset
-:first-child {
+.woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset:first-child {
   margin-bottom: 2.35vw;
 }
 
