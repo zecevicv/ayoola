@@ -803,6 +803,10 @@
   .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content {
     max-width: 100%;
   }
+
+  .page-content-container h3 {
+    font-size: 5.6rem;
+  }
 }
 
 /* #Footer
