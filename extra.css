@@ -526,6 +526,10 @@
 
 /* #Blog
 ================================================== */
+.page-wrapper.blog-page-wrapper .main-title-page {
+  margin-top: 3.125vw;
+}
+
 .page-wrapper.blog-page-wrapper .main-title-page::after {
   right: 50%;
   transform: translateX(50%);  
