@@ -795,6 +795,10 @@
   .woocommerce-account.woocommerce-orders .woocommerce-MyAccount-content, .woocommerce-account.woocommerce-view-order .woocommerce-MyAccount-content {
     max-width: 100%;
   }
+
+  .woocommerce-account.woocommerce-orders .woocommerce-MyAccount-content table.shop_table tr td, .woocommerce-account.woocommerce-view-order .woocommerce-MyAccount-content table.shop_table tr td {
+    padding: 2.5rem 0;
+  }
 }
 
 /* #Footer
