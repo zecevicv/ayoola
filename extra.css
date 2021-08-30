@@ -666,7 +666,8 @@
   margin-top: 1vw;
 }
 
-.woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column1, .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column2 {
+.woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column1, .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column2,
+.woocommerce-account.woocommerce-orders .woocommerce-customer-details .woocommerce-columns .woocommerce-column, .woocommerce-account.woocommerce-view-order .woocommerce-customer-details .woocommerce-columns .woocommerce-column {
   border-radius: .75rem;
   padding: 1.3rem 3.1255rem;
   margin-left: 3.125rem;
