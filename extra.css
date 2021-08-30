@@ -609,6 +609,10 @@
   .breadcrumbs-block-container .breadcrumbs-block-row {
     max-width: 92%;
   }
+
+  .post-item-list-wrapper .post-item-list .image-box {
+    margin-bottom: 2.66vw;
+  }
 }
 
 /* #Footer
