@@ -923,6 +923,10 @@
   .woocommerce form .password-input input[type=password], .woocommerce-page form .password-input input[type=password] {
     padding-left: 9.5rem;
   }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset:first-child {
+    margin-bottom: 14.66vw;
+  }
 }
 
 /* #Footer
