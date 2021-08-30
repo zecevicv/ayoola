@@ -746,6 +746,10 @@
     padding: 2.5rem;
     border-radius: 1.33rem;
   }
+
+  .woocommerce-account .woocommerce .account-navigation-container .user-meta-block .user-name-row .user-name {
+    font-size: 7.333rem;
+  }
 }
 
 /* #Footer
