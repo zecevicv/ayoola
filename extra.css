@@ -874,6 +874,10 @@
   .woocommerce table.shop_table th {
     padding-left: 0;
   }
+
+  .woocommerce .woocommerce-customer-details, .woocommerce .woocommerce-order-details, .woocommerce .woocommerce-order-downloads {
+    margin-bottom: 6vw;
+  }
 }
 
 /* #Footer
