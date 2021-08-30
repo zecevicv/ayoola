@@ -817,7 +817,8 @@
     margin-bottom: 2.66rem;
   }
 
-  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .form-row input {
+  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .form-row input,
+  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .form-row .select2-selection .select2-selection__rendered {
     height: 12rem;
     font-size: 4rem;
   }
