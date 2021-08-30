@@ -688,6 +688,10 @@
   text-align: left;
 }
 
+.woocommerce-orders-table__cell .woocommerce-orders-table__cell-order-actions {
+  text-align: left;
+}
+
 @media (max-width: 1023.98px) {
 
 }
