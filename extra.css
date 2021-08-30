@@ -719,6 +719,7 @@
 
   .woocommerce-account .woocommerce .woocommerce-MyAccount-content {
     width: 92%;
+    font-size: 4vw;
   }
 
   .woocommerce-account .woocommerce .account-navigation-container .user-meta-block {
