@@ -787,6 +787,10 @@
   .woocommerce-account .woocommerce .my-account-title {
     font-size: 8.66vw;
   }
+
+  .woocommerce table.my_account_orders {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
