@@ -765,6 +765,11 @@
     margin-top: 12rem;
     margin-bottom: 17.33rem;
   }
+
+  .my-account-after-content-links .links-container-title-row .links-container-title {
+    font-size: 5.6vw;
+    margin-bottom: 8vw;
+  }
 }
 
 /* #Footer
