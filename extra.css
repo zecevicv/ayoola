@@ -936,6 +936,7 @@
     max-width: 100%;
     margin: 0 auto;
     margin-bottom: 13.33vw;
+    font-size: 4rem;
   }
 
   .woocommerce form .form-row-first, .woocommerce form .form-row-last, .woocommerce-page form .form-row-first, .woocommerce-page form .form-row-last {
