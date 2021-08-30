@@ -899,6 +899,12 @@
     padding: 0;
     margin-bottom: 2rem;
   }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-row {
+    float: none;
+    width: 100%;
+    padding: 0;
+  }
 }
 
 /* #Footer
