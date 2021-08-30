@@ -779,6 +779,14 @@
   .my-account-after-content-links .account-links-list .link-item picture {
     margin-bottom: 2.93vw;
   }
+
+  .woocommerce-account .woocommerce .my-account-title-row {
+    margin-bottom: 9.33rem;
+  }
+
+  .woocommerce-account .woocommerce .my-account-title {
+    font-size: 8.66vw;
+  }
 }
 
 /* #Footer
