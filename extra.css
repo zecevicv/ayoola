@@ -927,6 +927,10 @@
   .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset:first-child {
     margin-bottom: 14.66vw;
   }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-row input::placeholder {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
