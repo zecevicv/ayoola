@@ -658,6 +658,10 @@
   margin-bottom: 6.77rem;
 }
 
+.woocommerce-account .woocommerce .woocommerce-MyAccount-content {
+  margin: 1.45rem auto 0 auto;
+}
+
 @media (max-width: 1023.98px) {
 
 }
