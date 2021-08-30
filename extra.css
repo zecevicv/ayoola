@@ -905,6 +905,11 @@
     width: 100%;
     padding: 0;
   }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-row input {
+    height: 12vw;
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
