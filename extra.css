@@ -896,6 +896,8 @@
 
   .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset legend {
     font-size: 5.6vw;
+    padding: 0;
+    margin-bottom: 2rem;
   }
 }
 
