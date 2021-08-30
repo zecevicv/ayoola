@@ -540,6 +540,10 @@
   margin-bottom: 1.5vw;
 }
 
+.post-item-list-wrapper .post-item-list .image-box {
+  margin-bottom: 1vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
