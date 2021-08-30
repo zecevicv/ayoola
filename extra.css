@@ -582,6 +582,10 @@
     margin-bottom: 2.66vw;
     padding-bottom: 2.66vw;
   }
+
+  .page-wrapper.blog-page-wrapper .page-content-container {
+    font-size: 4.26vw;
+  }
 }
 
 /* #Footer
