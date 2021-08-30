@@ -807,6 +807,10 @@
   .page-content-container h3 {
     font-size: 5.6rem;
   }
+
+  .woocommerce-account.woocommerce-orders p, .woocommerce-account.woocommerce-view-order p {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
