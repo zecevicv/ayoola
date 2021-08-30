@@ -524,6 +524,13 @@
   margin-bottom: 7.6vw;
 }
 
+/* #Blog
+================================================== */
+.page-wrapper.blog-page-wrapper .main-title-page::after {
+  right: 50%;
+  transform: translateX(-50%);  
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
