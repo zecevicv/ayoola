@@ -870,6 +870,10 @@
   .woocommerce-order-details__title {
     font-size: 4vw;
   }
+
+  .woocommerce table.shop_table th {
+    padding-left: 0;
+  }
 }
 
 /* #Footer
