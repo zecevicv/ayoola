@@ -734,6 +734,7 @@
 
   .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation ul {
     display: flex;
+    margin: 0 -1.33vw;
   }
 
   .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link {
