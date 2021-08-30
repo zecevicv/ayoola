@@ -653,6 +653,15 @@
   padding: 0 2.25rem;
 }
 
+.my-account-after-content-links {
+  margin-top: 4.68rem;
+  margin-bottom: 6.77rem;
+}
+
+@media (max-width: 1023.98px) {
+
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
