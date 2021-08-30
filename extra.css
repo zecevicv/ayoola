@@ -866,6 +866,10 @@
   .woocommerce-account.woocommerce-orders .woocommerce-MyAccount-content table.shop_table, .woocommerce-account.woocommerce-view-order .woocommerce-MyAccount-content table.shop_table {
     font-size: 4vw;
   }
+
+  .woocommerce-order-details__title {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
