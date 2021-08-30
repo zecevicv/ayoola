@@ -884,6 +884,11 @@
   .woocommerce .woocommerce-order-details {
     margin-bottom: 8vw;
   }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row {
+    padding: 2.60417rem 0;
+    margin: 0 -4%;
+  }
 }
 
 /* #Footer
