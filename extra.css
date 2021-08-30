@@ -688,8 +688,8 @@
   text-align: left;
 }
 
-.woocommerce-orders-table__cell .woocommerce-orders-table__cell-order-actions,
-.woocommerce-orders-table__header .woocommerce-orders-table__header-order-actions {
+.woocommerce-orders-table__cell.woocommerce-orders-table__cell-order-actions,
+.woocommerce-orders-table__header.woocommerce-orders-table__header-order-actions {
   text-align: left;
 }
 
