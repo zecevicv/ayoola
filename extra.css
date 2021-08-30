@@ -843,6 +843,10 @@
     margin-top: 8vw;
   }
 
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-button-row button {
+    margin-top: 0;
+  }
+
   .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column1, .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column2, .woocommerce-account.woocommerce-orders .woocommerce-customer-details .woocommerce-columns .woocommerce-column, .woocommerce-account.woocommerce-view-order .woocommerce-customer-details .woocommerce-columns .woocommerce-column {
     border-radius: 2rem;
     padding: 5.33rem;
