@@ -834,7 +834,8 @@
   }
 
   .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content button,
-  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-button-row button {
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-button-row button,
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .row-user-meta .form-button-row button {
     height: 10.66rem;
     border-radius: 500px;
     padding: 0;
