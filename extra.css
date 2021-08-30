@@ -536,6 +536,10 @@
   transform: translateX(50%);  
 }
 
+.page-wrapper.blog-page-wrapper .page-content-container p:first-child {
+  margin-bottom: 1.5vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
