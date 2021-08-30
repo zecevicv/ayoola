@@ -649,6 +649,10 @@
   margin-bottom: 1vw;
 }
 
+.my-account-after-content-links .account-links-list .link-item {
+  padding: 0 2.25rem;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
