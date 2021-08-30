@@ -816,6 +816,11 @@
   .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content p {
     margin-bottom: 2.66rem;
   }
+
+  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .form-row input {
+    height: 12rem;
+    font-size: 4rem;
+  }
 }
 
 /* #Footer
