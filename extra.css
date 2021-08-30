@@ -593,6 +593,10 @@
   .page-wrapper.blog-page-wrapper .page-content-container br {
     display: none;
   }
+
+  .page-wrapper.blog-page-wrapper .page-content-container p:first-child {
+    margin-bottom: 4vw;
+  }
 }
 
 /* #Footer
