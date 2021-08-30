@@ -674,6 +674,10 @@
   width: 30%;
 }
 
+.woocommerce-order-details__title {
+  text-align: right;
+}
+
 @media (max-width: 1023.98px) {
 
 }
