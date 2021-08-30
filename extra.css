@@ -770,6 +770,10 @@
     font-size: 5.6vw;
     margin-bottom: 8vw;
   }
+
+  .my-account-after-content-links .account-links-list .link-item {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
