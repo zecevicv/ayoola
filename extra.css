@@ -791,6 +791,10 @@
   .woocommerce table.my_account_orders {
     font-size: 4vw;
   }
+
+  .woocommerce-account.woocommerce-orders .woocommerce-MyAccount-content, .woocommerce-account.woocommerce-view-order .woocommerce-MyAccount-content {
+    max-width: 100%;
+  }
 }
 
 /* #Footer
