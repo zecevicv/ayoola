@@ -528,6 +528,7 @@
 ================================================== */
 .page-wrapper.blog-page-wrapper .main-title-page {
   margin-top: 2vw;
+  margin-bottom: 1vw;
 }
 
 .page-wrapper.blog-page-wrapper .main-title-page::after {
