@@ -726,6 +726,11 @@
     text-align: center;
     padding: 0;
   }
+
+  .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation {
+    float: none;
+    width: 100%;
+  }
 }
 
 /* #Footer
