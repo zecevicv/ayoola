@@ -589,6 +589,10 @@
     margin: 0 auto;
     margin-bottom: 6.66vw;
   }
+
+  .page-wrapper.blog-page-wrapper .page-content-container br {
+    display: none;
+  }
 }
 
 /* #Footer
