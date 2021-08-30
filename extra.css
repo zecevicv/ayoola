@@ -670,6 +670,7 @@
   border-radius: .75rem;
   padding: 1.3rem 3.1255rem;
   margin-left: 3.125rem;
+  width: 30%;
 }
 
 @media (max-width: 1023.98px) {
