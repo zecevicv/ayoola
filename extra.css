@@ -948,6 +948,10 @@
     height: 12rem;
     font-size: 4rem;
   }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-row .row-label-text {
+    margin-top: 5.33vw;
+  }
 }
 
 /* #Footer
