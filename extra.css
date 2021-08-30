@@ -601,6 +601,10 @@
   .breadcrumbs-block-row {
     font-size: 4.26vw;
   }
+
+  .breadcrumbs-block-container .breadcrumbs-block-row {
+    max-width: 92%;
+  }
 }
 
 /* #Footer
