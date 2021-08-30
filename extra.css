@@ -626,6 +626,16 @@
   .post-item-list-wrapper .post-item-list .post-item-wrapper .link-box .link-to-post {
     font-size: 4vw;
   }
+  
+  .pagination-wrapper .pagination-nav .page-numbers {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+    padding: 1rem;
+    margin: 0 2rem;
+    font-size: 4rem;
+    line-height: 1;
+  }
 }
 
 /* #Footer
