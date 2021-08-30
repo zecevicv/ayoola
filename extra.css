@@ -823,6 +823,10 @@
     height: 12rem;
     font-size: 4rem;
   }
+
+  .select2-results__option {
+    font-size: 4rem;
+  }
 }
 
 /* #Footer
