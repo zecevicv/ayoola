@@ -719,6 +719,13 @@
   .woocommerce-account .woocommerce .woocommerce-MyAccount-content {
     width: 92%;
   }
+
+  .woocommerce-account .woocommerce .account-navigation-container .user-meta-block {
+    float: none;
+    width: 100%;
+    text-align: center;
+    padding: 0;
+  }
 }
 
 /* #Footer
