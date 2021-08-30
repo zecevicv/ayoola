@@ -544,6 +544,10 @@
   margin-bottom: 1vw;
 }
 
+.post-item-list-wrapper .post-item-list .post-item-wrapper .title-box .article-title {
+  font-weight: 600;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
