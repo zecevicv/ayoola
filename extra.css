@@ -857,6 +857,10 @@
     font-size: 5.6vw;
     margin-bottom: 4.66vw;
   }
+
+  .woocommerce-account.woocommerce-orders .woocommerce-customer-details .woocommerce-columns .woocommerce-column address, .woocommerce-account.woocommerce-view-order .woocommerce-customer-details .woocommerce-columns .woocommerce-column address {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
