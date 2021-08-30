@@ -554,6 +554,23 @@
   font-weight: 600;
 }
 
+@media (max-width: 1023.98px) {
+  .page-template-viewtpl-blog-php .container-wrapper {
+    margin-top: 0;
+    padding: 8vw 0 4vw 0;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    margin-top: -10vw;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
+  
+  .post-item-list-wrapper {
+    max-width: 92%;
+  }
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
