@@ -610,8 +610,17 @@
     max-width: 92%;
   }
 
+  .post-item-list-wrapper .post-item-list {
+    text-align: center;
+  }
+
   .post-item-list-wrapper .post-item-list .image-box {
     margin-bottom: 2.66vw;
+  }
+
+  .post-item-list-wrapper .post-item-list .post-item-wrapper .title-box .article-title {
+    font-weight: 600;
+    margin-bottom: .75vw;
   }
 }
 
