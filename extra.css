@@ -957,6 +957,58 @@
   }
 }
 
+/* #Cart
+================================================== */
+.woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity {
+  height: 1.66rem;
+  position: relative;
+}
+
+.woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity::before {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: .7vw;
+  width: .325vw;
+  height: .68vw;
+  background-image: url('img/icons/chevron-left.svg');
+  z-index: 10;
+  transform: translateY(-50%) rotate(-90deg);
+}
+
+.woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity select {
+  min-width: 3.59rem;
+  height: 1.66rem;
+  border-radius: 0;
+  font-size: 1.25vw;
+  font-family: inherit;
+  line-height: 1;
+  outline: none!important;
+  appearance: none;
+  padding-right: .7vw;
+}
+
+@media (max-width: 1023.98px) {
+  .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity {
+    height: 5.6rem;
+  }
+  
+  .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity::before {
+    top: 50%;
+    left: 2vw;
+    width: 1.08vw;
+    height: 2.28vw;
+  }
+  
+  .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity select {
+    min-width: 12rem;
+    height: 5.6rem;
+    font-size: 4.8vw;
+    padding-right: 2vw;
+  }
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
