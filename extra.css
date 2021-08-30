@@ -739,6 +739,13 @@
   .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link {
     flex: 0 0 33.3333%;
   }
+
+  .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation ul li.woocommerce-MyAccount-navigation-link a {
+    width: 100%;
+    height: 4.6875rem;
+    padding: .52083rem 1.5625rem;
+    border-radius: .78125rem;
+  }
 }
 
 /* #Footer
