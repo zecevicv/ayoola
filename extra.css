@@ -627,6 +627,10 @@
   .post-item-list-wrapper .post-item-list .post-item-wrapper .link-box .link-to-post {
     font-size: 4vw;
   }
+
+  .pagination-wrapper {
+    margin-top: 5vw;
+  }
   
   .pagination-wrapper .pagination-nav .page-numbers {
     width: 8rem;
