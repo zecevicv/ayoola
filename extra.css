@@ -662,6 +662,10 @@
   margin: 1.45rem auto 0 auto;
 }
 
+.woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content button {
+  margin-top: 2.35vw;
+}
+
 @media (max-width: 1023.98px) {
 
 }
