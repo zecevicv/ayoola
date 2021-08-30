@@ -886,8 +886,12 @@
   }
 
   .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row {
-    padding: 2.60417rem 0;
+    padding: 12rem 0;
     margin: 0 -4%;
+  }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset {
+    max-width: 92%;
   }
 }
 
