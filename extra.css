@@ -705,6 +705,10 @@
     padding: 0;
     top: 0;
   }
+
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content {
+    width: 92%;
+  }
 }
 
 /* #Footer
