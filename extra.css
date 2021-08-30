@@ -698,6 +698,16 @@
 }
 
 @media (max-width: 1023.98px) {
+  .page-wrapper .page-content-container{
+    padding: 8vw 0 4vw 0;
+    border-top-left-radius: 6vw;
+    border-top-right-radius: 6vw;
+    margin-top: -10vw;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+  }
+
   .woocommerce-account .woocommerce .account-navigation-container {
     max-width: 92%;
     box-shadow: none;
