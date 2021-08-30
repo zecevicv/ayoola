@@ -678,7 +678,7 @@
   text-align: right;
 }
 
-.woocommerce-table__product-total .product-total:last-child {
+.woocommerce .woocommerce-order-details tr td:last-child {
   text-align: left;
 }
 
