@@ -775,6 +775,10 @@
     font-size: 4vw;
     padding: 0 4.26vw;
   }
+
+  .my-account-after-content-links .account-links-list .link-item picture {
+    margin-bottom: 2.93vw;
+  }
 }
 
 /* #Footer
