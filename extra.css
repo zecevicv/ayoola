@@ -852,7 +852,9 @@
     font-size: 4vw;
   }
 
+  .woocommerce-account.woocommerce-orders .woocommerce-customer-details .woocommerce-columns .woocommerce-column h2, .woocommerce-account.woocommerce-view-order .woocommerce-customer-details .woocommerce-columns .woocommerce-column h2,
   .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column1 header h3, .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .u-columns .u-column2 header h3 {
+    font-size: 5.6vw;
     margin-bottom: 4.66vw;
   }
 }
