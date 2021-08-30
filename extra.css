@@ -862,6 +862,10 @@
   .woocommerce-account.woocommerce-orders .woocommerce-customer-details .woocommerce-columns .woocommerce-column address p, .woocommerce-account.woocommerce-view-order .woocommerce-customer-details .woocommerce-columns .woocommerce-column address p {
     font-size: 4vw;
   }
+
+  .woocommerce-account.woocommerce-orders .woocommerce-MyAccount-content table.shop_table, .woocommerce-account.woocommerce-view-order .woocommerce-MyAccount-content table.shop_table {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
