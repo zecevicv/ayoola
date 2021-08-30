@@ -576,6 +576,10 @@
     padding: 0 0;
     margin-bottom: 2.23958rem;
   }
+
+  .page-wrapper.blog-page-wrapper .main-title-page {
+    font-size: 8vw;
+  }
 }
 
 /* #Footer
