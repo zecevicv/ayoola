@@ -678,6 +678,11 @@
   text-align: right;
 }
 
+.woocommerce .woocommerce-order-details tr th:first-child,
+.woocommerce .woocommerce-order-details tr td:first-child {
+  padding-right: 0;
+}
+
 .woocommerce .woocommerce-order-details tr th:last-child,
 .woocommerce .woocommerce-order-details tr td:last-child {
   text-align: left;
