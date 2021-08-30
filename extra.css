@@ -549,6 +549,10 @@
   margin-bottom: .75vw;
 }
 
+.post-item-list-wrapper .post-item-list .post-item-wrapper .link-box .link-to-post {
+  border-bottom: #FB0077;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
