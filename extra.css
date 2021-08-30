@@ -572,6 +572,7 @@
   
   .post-item-list-wrapper {
     max-width: 92%;
+    margin-bottom: 13.33vw;
   }
 
   .post-item-list-wrapper .post-item-list .post-item-wrapper {
