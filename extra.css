@@ -586,6 +586,7 @@
   .page-wrapper.blog-page-wrapper .page-content-container {
     font-size: 4.26vw;
     max-width: 77.33vw;
+    margin: 0 auto;
     margin-bottom: 6.66vw;
   }
 }
