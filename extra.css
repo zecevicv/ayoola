@@ -824,6 +824,11 @@
     font-size: 4rem;
   }
 
+  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .form-row .select2-selection .select2-selection__rendered,
+  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content .form-row .select2-selection {
+    height: 10vw;
+  }
+
   .select2-results__option {
     font-size: 4rem;
   }
