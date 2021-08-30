@@ -750,6 +750,10 @@
   .woocommerce-account .woocommerce .account-navigation-container .user-meta-block .user-name-row .user-name {
     font-size: 7.333rem;
   }
+
+  .woocommerce-account .woocommerce .account-navigation-container .user-meta-block .link-log-out-row {
+    font-size: 4.8rem;
+  }
 }
 
 /* #Footer
