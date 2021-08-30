@@ -731,6 +731,10 @@
     float: none;
     width: 100%;
   }
+
+  .woocommerce-account .woocommerce .account-navigation-container .woocommerce-MyAccount-navigation ul {
+    display: flex;
+  }
 }
 
 /* #Footer
