@@ -573,7 +573,7 @@
   .post-item-list-wrapper .post-item-list .post-item-wrapper {
     flex: 0 0 100%;
     max-width: 100%;
-    padding: 0 1.5625rem;
+    padding: 0 0;
     margin-bottom: 2.23958rem;
   }
 }
