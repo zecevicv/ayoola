@@ -833,7 +833,8 @@
     font-size: 4rem;
   }
 
-  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content button {
+  .woocommerce-account.woocommerce-edit-address .woocommerce-MyAccount-content button,
+  .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-button-row button {
     height: 10.66rem;
     border-radius: 500px;
     padding: 0;
@@ -913,6 +914,10 @@
 
   .woocommerce-account .woocommerce .woocommerce-MyAccount-content .password-change-row fieldset .form-row {
     font-size: 4vw;
+  }
+
+  .woocommerce form .password-input input[type=password], .woocommerce-page form .password-input input[type=password] {
+    padding-left: 9.5rem;
   }
 }
 
