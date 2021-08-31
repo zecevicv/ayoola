@@ -1437,6 +1437,10 @@
     justify-content: center;
   }
 
+  .select2-container--default .select2-selection--single .select2-selection__arrow {
+    height: 100%;
+  }
+
 }
 
 /* #Footer
