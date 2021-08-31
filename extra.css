@@ -1332,8 +1332,13 @@
     font-size: 4vw;
   }
 
-  .woocommerce .woocommerce-order-details tr th:last-child, .woocommerce .woocommerce-order-details tr td:last-child {
+  .woocommerce .woocommerce-order-details tr th:last-child, 
+  .woocommerce .woocommerce-order-details tr td:last-child {
     padding-left: 0;
+  }
+
+  .woocommerce ul.order_details li strong {
+    font-size: 1em;
   }
 }
 
