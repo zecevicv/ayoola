@@ -1424,6 +1424,17 @@
     height: 10vw;
   }
 
+  .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
+    height: 10.66rem;
+    border-radius: 500px;
+    padding: 0;
+    font-size: 4.53vw;
+    width: 100%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+  }
+
 }
 
 /* #Footer
