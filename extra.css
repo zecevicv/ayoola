@@ -1370,6 +1370,10 @@
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table {
     font-size: 4vw;
   }
+
+  .woocommerce-checkout .order-review-container h3 {
+    font-size: 5.6vw;
+  }
 }
 
 /* #Footer
