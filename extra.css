@@ -1077,6 +1077,10 @@
     line-height: 1;
     height: auto;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-item-list-wrapper, .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper {
+    margin: 0 -4%;
+  }
 }
 
 /* #Footer
