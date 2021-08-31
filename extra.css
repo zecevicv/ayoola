@@ -1498,6 +1498,10 @@
     margin-top: 8vw;
   }
 
+  #add_payment_method .checkout .col-2 .notes, .woocommerce-cart .checkout .col-2 .notes, .woocommerce-checkout .checkout .col-2 .notes {
+    margin-bottom: 4vw;
+  }
+
 }
 
 /* #Footer
