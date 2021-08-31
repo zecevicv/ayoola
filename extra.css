@@ -1198,6 +1198,7 @@
 
   .woocommerce-cart-form__cart-item.cart_item  {
     display: flex!important;
+    padding: 5.33vw 0;
   }
 }
 
