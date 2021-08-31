@@ -1047,6 +1047,12 @@
     flex: 0 0 100%;
     max-width: 100%;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-item-list-wrapper .page-main-title-row .page-main-title {
+    font-size: 5.6vw;
+    text-align: center;
+    margin-bottom: 8rem;
+  }
 }
 
 /* #Footer
