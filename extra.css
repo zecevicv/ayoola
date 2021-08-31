@@ -1413,6 +1413,11 @@
     font-size: 4rem;
   }
 
+  .woocommerce-checkout .customer-details-block input:not([type="checkbox"]):not([type="radio"]) {
+    height: 12vw;
+    font-size: 4vw;
+  }
+
 }
 
 /* #Footer
