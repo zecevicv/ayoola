@@ -1294,6 +1294,11 @@
     padding-top: 21.33vw;
     padding-bottom: 17.33vw;
   }
+
+  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout, 
+  .woocommerce-order-received .order-received-page-container {
+    display: block;
+  }
 }
 
 /* #Footer
