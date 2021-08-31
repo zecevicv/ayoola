@@ -1243,6 +1243,12 @@
   .woocommerce #content table.cart td.actions, .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions {
     padding: 5.33vw 0;
   }
+
+  .woocommerce #content table.cart td.actions .button, .woocommerce table.cart td.actions .button, .woocommerce-page #content table.cart td.actions .button, .woocommerce-page table.cart td.actions .button {
+    height: 10.66vw;
+    border-radius: 500px;
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
