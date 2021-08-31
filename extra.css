@@ -1299,6 +1299,11 @@
   .woocommerce-order-received .order-received-page-container {
     display: block;
   }
+
+  .woocommerce-order-received .order-received-page-container .order-received-content-block,
+  .woocommerce-order-received .order-received-page-container .order-received-image-content-block {
+    max-width: 100%;
+  }
 }
 
 /* #Footer
