@@ -1179,6 +1179,10 @@
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-thumbnail {
     display: block;
   }
+
+  .woocommerce table.shop_table_responsive tr td::before, .woocommerce-page table.shop_table_responsive tr td::before {
+    display: none;
+  }
 }
 
 /* #Footer
