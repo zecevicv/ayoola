@@ -1314,6 +1314,8 @@
   .woocommerce ul.order_details li {
     float: none;
     font-size: 4vw;
+    border: none;
+    padding-bottom: 2vw;
   }
 }
 
