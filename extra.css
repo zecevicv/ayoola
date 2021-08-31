@@ -1423,6 +1423,7 @@
   .woocommerce-checkout .customer-details-block .select2-selection {
     font-size: 4rem;
     height: 12vw;
+    line-height: 12vw;
   }
 
   .woocommerce #payment #place_order, .woocommerce-page #payment #place_order {
