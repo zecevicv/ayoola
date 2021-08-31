@@ -1061,10 +1061,15 @@
 
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name {
     width: 47.46rem;
-    padding: 1.5625rem 1.30208rem 4.89583rem 0;
-    vertical-align: top;
-    border-top: none;
-    border-bottom: 1px solid rgba(0,0,0,0.1);
+    padding: 0;
+  }
+
+  .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .price {
+    float: none;
+    width: 47.46rem;
+    font-size: 4.8rem;
+    height: auto;
+    margin-bottom: 0;
   }
 }
 
