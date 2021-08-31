@@ -1313,7 +1313,7 @@
   }
 
   .woocommerce-order-received ul.order_details {
-    margin-bottom: 5vw;
+    margin-bottom: 8vw;
   }
 
   .woocommerce-order-received ul.order_details li {
@@ -1351,6 +1351,10 @@
 
   .woocommerce-order-received .woocommerce-customer-details address {
     font-size: 4vw;
+  }
+
+  .woocommerce-order-received .woocommerce-customer-details .woocommerce-column:not(:last-of-type) {
+    margin-bottom: 5vw;
   }
 }
 
