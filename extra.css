@@ -1463,7 +1463,7 @@
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="checkbox"] ~ span:before, .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="radio"] ~ span:before {
     width: 4.13rem;
     height: 4.13rem;
-    font-size: 2rem;
+    font-size: 2.5rem;
     line-height: 4.13rem;
     top: 50%;
     transform: translateY(-50%);
