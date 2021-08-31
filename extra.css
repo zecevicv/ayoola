@@ -1305,6 +1305,11 @@
   .woocommerce-order-received .order-received-page-container .order-received-image-content-block {
     max-width: 100%;
   }
+
+  .woocommerce-notice.woocommerce-thankyou-order-received {
+    font-size: 5.6vw;
+    font-weight: 600;
+  }
 }
 
 /* #Footer
