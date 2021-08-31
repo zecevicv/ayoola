@@ -1139,8 +1139,12 @@
   }
 
   .cart-coupon-wrapper-row .coupon .coupon-field-wrapp input {
-    height: 12vw;
+    height: 10.66rem;
     font-size: 4vw;
+  }
+
+  .cart-coupon-wrapper-row .coupon .coupon-field-wrapp {
+    width: 60%;
   }
 }
 
