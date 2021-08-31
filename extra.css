@@ -1081,6 +1081,11 @@
   .woocommerce-cart .cart-page-wrapper .cart-page-item-list-wrapper, .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper {
     padding: 0 4%;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper,
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .cart-collaterals .cart_totals {
+    background-color: #F3F3F3;
+  }
 }
 
 /* #Footer
