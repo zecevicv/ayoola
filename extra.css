@@ -1357,6 +1357,10 @@
   .woocommerce-order-received .woocommerce-customer-details .woocommerce-column:not(:last-of-type) {
     margin-bottom: 5vw;
   }
+
+  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .customer-details-block {
+    max-width: 100%;
+  }
 }
 
 /* #Footer
