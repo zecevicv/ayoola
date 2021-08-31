@@ -1344,6 +1344,14 @@
   .woocommerce .woocommerce-customer-details, .woocommerce .woocommerce-order-details, .woocommerce .woocommerce-order-downloads {
     margin-bottom: 8vw;
   }
+
+  .woocommerce-column__title {
+    font-size: 5.6vw;
+  } 
+
+  .woocommerce-order-received .woocommerce-customer-details address {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
