@@ -1070,6 +1070,7 @@
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .price {
     width: 60%;
     font-size: 4.8rem;
+    font-weight: 600;
     height: auto;
     margin-bottom: 0;
     line-height: 1;
