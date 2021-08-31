@@ -1163,6 +1163,10 @@
   .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .cart-subtotal td {
     border: none;
   }
+
+  .woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
+    background-color: transparent;
+  }
 }
 
 /* #Footer
