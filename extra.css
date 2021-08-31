@@ -1239,6 +1239,10 @@
     line-height: 1;
     font-size: 6rem;
   }
+
+  .woocommerce #content table.cart td.actions, .woocommerce table.cart td.actions, .woocommerce-page #content table.cart td.actions, .woocommerce-page table.cart td.actions {
+    padding: 5.33vw 0;
+  }
 }
 
 /* #Footer
