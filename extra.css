@@ -1251,6 +1251,12 @@
   }
 }
 
+/* #Checkout
+================================================== */
+.woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout {
+  padding: 0 1vw 0 6vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
