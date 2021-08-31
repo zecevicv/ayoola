@@ -1441,6 +1441,10 @@
     height: 100%;
   }
 
+  .woocommerce-checkout .shipping-method-block-wrapper h3 {
+    font-size: 5.6vw;
+  }
+
 }
 
 /* #Footer
