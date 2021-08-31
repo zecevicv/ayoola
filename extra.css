@@ -1469,6 +1469,15 @@
     transform: translateY(-50%);
   }
 
+  .woocommerce form .form-row textarea {
+    height: 4em;
+    font-size: 4vw;
+    border-radius: 1.33rem;
+    padding: 2rem;
+  }
+
+  
+
 }
 
 /* #Footer
