@@ -1278,6 +1278,10 @@
   line-height: 1.7;
 }
 
+.woocommerce-order-received .woocommerce-customer-details .woocommerce-column:not(:last-of-type) {
+  margin-bottom: 2vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
