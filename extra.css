@@ -1249,6 +1249,10 @@
     border-radius: 500px;
     font-size: 4.53vw;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .cart-subtotal td {
+    border-top: none;
+  }
 }
 
 /* #Checkout
