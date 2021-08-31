@@ -1008,6 +1008,12 @@
 }
 
 @media (max-width: 1023.98px) {
+  .woocommerce-cart .cart-page-wrapper {
+    width: 92%;
+    padding-top: 21.33vw;
+    padding-bottom: 17.33vw;
+  }
+
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity {
     height: 5.6rem;
   }
