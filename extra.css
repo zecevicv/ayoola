@@ -1325,6 +1325,7 @@
 
   .woocommerce-order-received .woocommerce-order-details__title {
     font-size: 5.6vw;
+    margin-right: 0!important;
   }
 }
 
