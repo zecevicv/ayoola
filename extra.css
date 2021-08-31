@@ -1327,6 +1327,10 @@
     font-size: 5.6vw;
     margin-right: 0!important;
   }
+
+  .woocommerce td.product-name .wc-item-meta p, .woocommerce td.product-name .wc-item-meta:last-child, .woocommerce td.product-name dl.variation p, .woocommerce td.product-name dl.variation:last-child {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
