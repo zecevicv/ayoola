@@ -1476,6 +1476,10 @@
     padding: 2rem;
   }
 
+  .woocommerce-checkout .customer-details-block .woocommerce-shipping-fields {
+    margin-bottom: 4vw;
+  }
+
   
 
 }
