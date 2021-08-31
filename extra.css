@@ -1306,21 +1306,25 @@
     max-width: 100%;
   }
 
-  .woocommerce-notice.woocommerce-thankyou-order-received {
+  .woocommerce-order-received .woocommerce-notice.woocommerce-thankyou-order-received {
     font-size: 5.6vw;
     font-weight: 600;
     margin-bottom: 4vw;
   }
 
-  .woocommerce ul.order_details {
+  .woocommerce-order-received ul.order_details {
     margin-bottom: 5vw;
   }
 
-  .woocommerce ul.order_details li {
+  .woocommerce-order-received ul.order_details li {
     float: none;
     font-size: 4vw;
     border: none;
     padding-bottom: 2vw;
+  }
+
+  .woocommerce-order-received .woocommerce-order-details__title {
+    font-size: 5.6vw;
   }
 }
 
