@@ -1068,6 +1068,10 @@
     border: none;
   }
 
+  .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name > a {
+    font-weight: 600;
+  }
+
   .woocommerce-cart-form__cart-item.cart_item {
     border-bottom: 1px solid #9A9A9A;
   }
