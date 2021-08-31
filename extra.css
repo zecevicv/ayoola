@@ -1362,6 +1362,10 @@
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .order-review-block {
     max-width: 100%;
   }
+
+  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .order-review-block {
+    margin: 0 -4%;
+  }
 }
 
 /* #Footer
