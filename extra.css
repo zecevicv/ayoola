@@ -1262,6 +1262,10 @@
   padding: 0 1vw 0 6vw;
 }
 
+.woocommerce-notice.woocommerce-thankyou-order-received {
+  margin-bottom: 1vw;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
