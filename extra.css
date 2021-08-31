@@ -1253,12 +1253,14 @@
 
 /* #Checkout
 ================================================== */
-.woocommerce-checkout .checkout-form-container-wrapper {
+.woocommerce-checkout .checkout-form-container-wrapper,
+.woocommerce-order-received .order-received-page-container-wrapper {
   width: 81.25%;
   padding-bottom: 6vw;
 }
 
-.woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout {
+.woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout,
+.woocommerce-order-received .order-received-page-container {
   padding: 0 1vw 0 6vw;
 }
 
