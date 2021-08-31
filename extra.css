@@ -1358,7 +1358,8 @@
     margin-bottom: 5vw;
   }
 
-  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .customer-details-block {
+  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .customer-details-block,
+  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .order-review-block {
     max-width: 100%;
   }
 }
