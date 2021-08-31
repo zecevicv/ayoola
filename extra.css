@@ -1488,7 +1488,10 @@
     margin-bottom: 4vw;
   }
 
-  
+  .woocommerce-checkout .customer-details-block .woocommerce-checkout-payment .woocommerce-privacy-policy-text {
+    font-size: 4vw;
+    margin-bottom: 3vw;
+  }
 
 }
 
