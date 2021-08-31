@@ -1390,9 +1390,13 @@
     padding: 3.33vw 0;
   }
 
+  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total {
+    border-top: 1px solid black;
+  }
+  
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total th,
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total td {
-    border-top: 1px solid black;
+    border-top: none;
     font-size: 4rem;
   }
 
