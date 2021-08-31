@@ -1195,7 +1195,7 @@
   }
 
   .woocommerce-cart-form__cart-item.cart_item  {
-    display: flex;
+    display: flex!important;
   }
 }
 
