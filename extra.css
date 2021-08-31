@@ -1282,6 +1282,10 @@
   margin-bottom: 2vw;
 }
 
+.woocommerce-column__title {
+  margin-right: 0;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
