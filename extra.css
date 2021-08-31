@@ -1462,6 +1462,7 @@
     font-size: 2rem;
     line-height: 4.13rem;
     top: 50%;
+    transform: translateY(-50%);
   }
 
 }
