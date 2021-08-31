@@ -1205,6 +1205,7 @@
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-remove {
     border-bottom: none;
     padding: 0;
+    width: 8.8vw;
   }
 
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-remove a {
