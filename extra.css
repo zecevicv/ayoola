@@ -1287,6 +1287,15 @@
   margin-right: 0!important;
 }
 
+@media (max-width: 1023.98px) {
+  .woocommerce-checkout .checkout-form-container-wrapper, 
+  .woocommerce-order-received .order-received-page-container-wrapper {
+    width: 92%;
+    padding-top: 21.33vw;
+    padding-bottom: 17.33vw;
+  }
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
