@@ -1310,6 +1310,10 @@
     font-size: 5.6vw;
     font-weight: 600;
   }
+
+  .woocommerce ul.order_details li {
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
