@@ -1137,6 +1137,11 @@
     flex: none;
     width: auto;
   }
+
+  .cart-coupon-wrapper-row .coupon .coupon-field-wrapp input {
+    height: 12vw;
+    font-size: 4vw;
+  }
 }
 
 /* #Footer
