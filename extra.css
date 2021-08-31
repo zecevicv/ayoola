@@ -1116,7 +1116,8 @@
     width: 100%;
   }
 
-  #add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+  #add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button,
+  .cart-coupon-wrapper-row .coupon .coupon-field-submit-wrapp button {
     height: 10.66rem;
     border-radius: 500px;
     padding: 0;
@@ -1125,6 +1126,11 @@
     display: inline-flex;
     align-items: center;
     justify-content: center;
+  }
+
+  .cart-coupon-wrapper-row .coupon .coupon-field-submit-wrapp button {
+    width: auto;
+    padding: 0 9vw;
   }
 }
 
