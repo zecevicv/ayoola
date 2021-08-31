@@ -1079,6 +1079,7 @@
   }
 
   .woocommerce-cart .cart-page-wrapper .cart-page-item-list-wrapper, .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper {
+    padding: 0 4%;
   }
 }
 
