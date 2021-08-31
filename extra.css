@@ -1309,6 +1309,7 @@
   .woocommerce-notice.woocommerce-thankyou-order-received {
     font-size: 5.6vw;
     font-weight: 600;
+    margin-bottom: 3vw;
   }
 
   .woocommerce ul.order_details li {
