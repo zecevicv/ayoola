@@ -1302,6 +1302,10 @@
   .woocommerce-checkout .checkout-form-container-wrapper {
     width: 100%;
   }
+  
+  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .customer-details-block {
+    padding: 0 4%;
+  }
 
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout, 
   .woocommerce-order-received .order-received-page-container {
