@@ -1340,6 +1340,10 @@
   .woocommerce ul.order_details li strong {
     font-size: 1em;
   }
+
+  .woocommerce .woocommerce-customer-details, .woocommerce .woocommerce-order-details, .woocommerce .woocommerce-order-downloads {
+    margin-bottom: 8vw;
+  }
 }
 
 /* #Footer
