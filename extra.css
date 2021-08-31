@@ -1146,6 +1146,10 @@
   .cart-coupon-wrapper-row .coupon .coupon-field-wrapp {
     width: 60%;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .cart-subtotal td {
+    background-color: transparent;
+  }
 }
 
 /* #Footer
