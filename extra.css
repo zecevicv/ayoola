@@ -961,6 +961,7 @@
 ================================================== */
 .woocommerce-cart .cart-page-wrapper {
   width: 81.25%;
+  padding-bottom: 6vw;
 }
 
 .page-content-top-meta-row,
