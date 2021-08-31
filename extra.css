@@ -1171,6 +1171,10 @@
   .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .order-total td {
     border-top: 1px solid black;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table tr th, .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table tr td {
+    padding: 3.33vw 0;
+  }
 }
 
 /* #Footer
