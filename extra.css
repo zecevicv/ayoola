@@ -1455,6 +1455,10 @@
     margin-bottom: 8vw;
   }
 
+  .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="checkbox"] ~ span, .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="radio"] ~ span {
+    padding-right: 7.5vw;
+  }
+
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="checkbox"] ~ span:after, .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="radio"] ~ span:after,
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="checkbox"] ~ span:before, .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout label input[type="radio"] ~ span:before {
     width: 4.13rem;
