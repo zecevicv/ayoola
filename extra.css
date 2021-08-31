@@ -1189,6 +1189,10 @@
     padding: 0;
     border-bottom: none;
   }
+
+  .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-thumbnail .attachment-woocommerce_thumbnail {
+    width: 100%;
+  }
 }
 
 /* #Footer
