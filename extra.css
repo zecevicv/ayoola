@@ -1373,7 +1373,7 @@
 
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table {
     font-size: 4vw;
-    padding: 7.33vw 0 0 0;
+    margin: 7.33vw 0 0 0;
   }
 
   .woocommerce-checkout .order-review-container h3 {
