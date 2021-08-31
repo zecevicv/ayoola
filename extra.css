@@ -1111,6 +1111,10 @@
     font-size: 4.26vw;
     margin-top: 8vw;
   }
+
+  .after-button-row-wrapper .after-button-pay-image img {
+    width: 100%;
+  }
 }
 
 /* #Footer
