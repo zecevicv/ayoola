@@ -1035,6 +1035,12 @@
   .page-content-top-meta-row {
     display: none;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-container {
+    display: block;
+    padding: 0;
+    padding-bottom: 8vw;
+  }
 }
 
 /* #Footer
