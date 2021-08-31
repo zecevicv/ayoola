@@ -1503,8 +1503,8 @@
   }
 
   #add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
-    padding: 2em;
-    margin: 2em 0;
+    padding: 1em;
+    margin: 1em 0;
     font-size: 3.73em;
   }
 
