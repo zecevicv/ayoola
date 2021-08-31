@@ -1499,13 +1499,16 @@
   }
 
   #add_payment_method .checkout .col-2 .notes, .woocommerce-cart .checkout .col-2 .notes, .woocommerce-checkout .checkout .col-2 .notes {
-    margin-bottom: 4vw;
+    margin-bottom: 6vw;
   }
 
   #add_payment_method #payment div.payment_box, .woocommerce-cart #payment div.payment_box, .woocommerce-checkout #payment div.payment_box {
     font-size: 3.73em;
   }
 
+  #add_payment_method #payment ul.payment_methods, .woocommerce-cart #payment ul.payment_methods, .woocommerce-checkout #payment ul.payment_methods {
+    padding: 0 0 3vw 0;
+  }
 }
 
 /* #Footer
