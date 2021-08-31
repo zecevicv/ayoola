@@ -1272,6 +1272,11 @@
   border: none;
 }
 
+.woocommerce-order-received .woocommerce-customer-details address {
+  border: none;
+  padding: 0;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
