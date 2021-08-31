@@ -1254,7 +1254,8 @@
 /* #Checkout
 ================================================== */
 .woocommerce-checkout .checkout-form-container-wrapper {
-  width: 82%;
+  width: 81.25%;
+  padding-bottom: 6vw;
 }
 
 .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout {
