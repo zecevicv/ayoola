@@ -1516,8 +1516,8 @@
   }
 
   .woocommerce-checkout .customer-details-block .form-row {
-    width: 100%;
-    float: none;
+    width: 100%!important;
+    float: none!important;
   }
 }
 
