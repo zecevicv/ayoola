@@ -968,6 +968,10 @@
   padding: 0 1vw 0 6vw;
 }
 
+.page-content-top-meta-row .link-to-back-shop {
+  right: 1vw;
+}
+
 .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity {
   height: 1.66rem;
   position: relative;
