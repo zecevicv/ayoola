@@ -1206,6 +1206,9 @@
     border-bottom: none;
     padding: 0;
     width: 8.8vw;
+    text-align: right!important;
+    display: flex;
+    align-items: center;
   }
 
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-remove a {
