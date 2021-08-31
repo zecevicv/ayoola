@@ -1305,6 +1305,7 @@
   
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout .customer-details-block {
     padding: 0 4%;
+    margin-bottom: 8vw;
   }
 
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout, 
