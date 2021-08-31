@@ -1298,6 +1298,7 @@
   .woocommerce-checkout .checkout-form-container-wrapper .woocommerce-checkout, 
   .woocommerce-order-received .order-received-page-container {
     display: block;
+    padding: 0;
   }
 
   .woocommerce-order-received .order-received-page-container .order-received-content-block,
