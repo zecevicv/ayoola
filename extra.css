@@ -1373,7 +1373,7 @@
 
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table {
     font-size: 4vw;
-    padding: 7.33vw 0 8.8vw 0;
+    padding: 7.33vw 0 0 0;
   }
 
   .woocommerce-checkout .order-review-container h3 {
@@ -1383,6 +1383,11 @@
   .woocommerce-checkout .order-review-container {
     background-color: #F3F3F3;
     padding: 6.66rem 4%;
+  }
+
+  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total th {
+    border-top: 1px solid black;
+    font-size: 4rem;
   }
 
 }
