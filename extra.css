@@ -1275,6 +1275,7 @@
 .woocommerce-order-received .woocommerce-customer-details address {
   border: none;
   padding: 0;
+  line-height: 1.7;
 }
 
 /* #Footer
