@@ -1105,6 +1105,10 @@
     margin-bottom: 6vw;
     text-align: center;
   }
+
+  .after-button-row-wrapper .link-to-shop-row {
+    text-align: center;
+  }
 }
 
 /* #Footer
