@@ -1390,7 +1390,9 @@
     padding: 3.33vw 0!important;
   }
 
-  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total {
+  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .cart-subtotal th,
+  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .cart-subtotal td {
+    border-top: none;
   }
   
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total th,
