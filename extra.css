@@ -1115,6 +1115,14 @@
   .after-button-row-wrapper .after-button-pay-image img {
     width: 100%;
   }
+
+  #add_payment_method .wc-proceed-to-checkout a.checkout-button, .woocommerce-cart .wc-proceed-to-checkout a.checkout-button, .woocommerce-checkout .wc-proceed-to-checkout a.checkout-button {
+    height: 10.66rem;
+    border-radius: 500px;
+    padding: 0;
+    font-size: 4.53vw;
+    width: 100%;
+  }
 }
 
 /* #Footer
