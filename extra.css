@@ -1387,16 +1387,15 @@
 
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table th,
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table td {
-    padding: 3.33vw 0;
+    padding: 3.33vw 0!important;
   }
 
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total {
-    border-top: 1px solid black;
   }
   
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total th,
   .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total td {
-    border-top: none;
+    border-top: 1px solid black;
     font-size: 4rem;
   }
 
