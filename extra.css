@@ -1215,6 +1215,10 @@
     justify-content: space-between;
   }
 
+  .woocommerce td.product-name .wc-item-meta .wc-item-meta-label, .woocommerce td.product-name .wc-item-meta dt, .woocommerce td.product-name dl.variation .wc-item-meta-label, .woocommerce td.product-name dl.variation dt {
+    font-weight: 600;
+  }
+
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-remove {
     border-bottom: none;
     padding: 0;
