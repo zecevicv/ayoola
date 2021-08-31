@@ -1514,6 +1514,11 @@
   #add_payment_method #payment ul.payment_methods li, .woocommerce-cart #payment ul.payment_methods li:not(:last-of-type), .woocommerce-checkout #payment ul.payment_methods li:not(:last-of-type) {
     margin-bottom: 4vw;
   }
+
+  .woocommerce-checkout .customer-details-block .form-row {
+    width: 100%;
+    float: none;
+  }
 }
 
 /* #Footer
