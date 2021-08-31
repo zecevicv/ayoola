@@ -1063,7 +1063,7 @@
     width: 47.46rem;
     padding: 0;
     padding-right: 3.33vw;
-    text-align: right;
+    text-align: right!important;
   }
 
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .price {
