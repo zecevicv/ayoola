@@ -1178,10 +1178,6 @@
     padding: 7.33vw 0 8.8vw 0;
   }
 
-  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .cart-subtotal th,
-  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .cart-subtotal td {
-  }
-
   .woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
     background-color: transparent;
   }
