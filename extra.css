@@ -1270,6 +1270,7 @@
 
 .woocommerce-order-received table.shop_table {
   border: none;
+  line-height: 1.7;
 }
 
 .woocommerce-order-received .woocommerce-customer-details address {
