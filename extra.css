@@ -1328,7 +1328,7 @@
     margin-right: 0!important;
   }
 
-  .woocommerce td.product-name .wc-item-meta p, .woocommerce td.product-name .wc-item-meta, .woocommerce td.product-name dl.variation p, .woocommerce td.product-name dl.variation {
+  .woocommerce td.product-name .wc-item-meta p, .woocommerce td.product-name .wc-item-meta li, .woocommerce td.product-name dl.variation p, .woocommerce td.product-name dl.variation li {
     font-size: 4vw;
   }
 }
