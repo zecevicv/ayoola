@@ -1442,7 +1442,11 @@
   }
 
   .woocommerce-checkout .shipping-method-block-wrapper h3 {
-    font-size: 5.6vw;
+    font-size: 7.33vw;
+  }
+
+  .woocommerce-checkout .col2-set .col-1 h3 {
+    margin-bottom: 5.6vw;
   }
 
 }
