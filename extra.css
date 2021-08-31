@@ -1151,7 +1151,7 @@
     background-color: transparent;
   }
 
-  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .order-total th {
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .order-total td {
     font-size: 4vw;
   }
 }
