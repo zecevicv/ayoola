@@ -1201,6 +1201,11 @@
     display: flex!important;
     padding: 5.33vw 0;
   }
+
+  .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-remove {
+    border-bottom: none;
+    padding: 0;
+  }
 }
 
 /* #Footer
