@@ -1158,6 +1158,10 @@
   .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table {
     padding: 7.33vw 0 8.8vw 0;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .shop_table .cart-subtotal th {
+    border: none;
+  }
 }
 
 /* #Footer
