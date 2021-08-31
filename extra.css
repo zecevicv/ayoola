@@ -1041,6 +1041,12 @@
     padding: 0;
     padding-bottom: 8vw;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-item-list-wrapper,
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
 
 /* #Footer
