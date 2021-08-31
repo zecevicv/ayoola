@@ -1003,6 +1003,10 @@
   padding-right: .7vw;
 }
 
+.cart-coupon-wrapper-row .coupon .coupon-field-wrapp input {
+  outline: none!important;
+}
+
 @media (max-width: 1023.98px) {
   .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity {
     height: 5.6rem;
