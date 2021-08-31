@@ -1385,7 +1385,8 @@
     padding: 6.66rem 4%;
   }
 
-  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total th {
+  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total th,
+  .woocommerce-checkout .order-review-container .woocommerce-checkout-review-order-table tfoot .order-total td {
     border-top: 1px solid black;
     font-size: 4rem;
   }
