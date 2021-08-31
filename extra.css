@@ -959,6 +959,10 @@
 
 /* #Cart
 ================================================== */
+.woocommerce-cart .cart-page-wrapper {
+  width: 81.25%;
+}
+
 .woocommerce-cart .cart-page-wrapper .woocommerce-cart-form__cart-item .product-name .price-and-quantity-meta .quantity {
   height: 1.66rem;
   position: relative;
