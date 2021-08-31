@@ -1347,6 +1347,7 @@
 
   .woocommerce-column__title {
     font-size: 5.6vw;
+    margin-bottom: 4vw;
   } 
 
   .woocommerce-order-received .woocommerce-customer-details address {
