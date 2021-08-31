@@ -1094,6 +1094,11 @@
   .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .cart-collaterals .cart_totals {
     padding: 0;
   }
+
+  .woocommerce-cart .cart-page-wrapper .cart-page-cart-collaterals-wrapper .cart-collaterals .cart_totals h2 {
+    text-align: center;
+    font-size: 5.6vw;
+  }
 }
 
 /* #Footer
