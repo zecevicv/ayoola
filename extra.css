@@ -1268,6 +1268,10 @@
   margin-bottom: 1vw;
 }
 
+.woocommerce-order-received table.shop_table {
+  border: none;
+}
+
 /* #Footer
 ================================================== */
 @media (min-width: 1024px) {
