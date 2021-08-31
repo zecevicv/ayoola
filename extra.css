@@ -1031,6 +1031,10 @@
     font-size: 4.8vw;
     padding-right: 2vw;
   }
+
+  .page-content-top-meta-row {
+    display: none;
+  }
 }
 
 /* #Footer
