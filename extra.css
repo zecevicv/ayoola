@@ -1493,6 +1493,11 @@
     margin-bottom: 3vw;
   }
 
+  #add_payment_method #payment div.form-row, .woocommerce-cart #payment div.form-row, .woocommerce-checkout #payment div.form-row {
+    padding: 0;
+    margin-top: 8vw;
+  }
+
 }
 
 /* #Footer
