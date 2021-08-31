@@ -1312,6 +1312,10 @@
     margin-bottom: 3vw;
   }
 
+  .woocommerce ul.order_details {
+    margin-bottom: 5vw;
+  }
+
   .woocommerce ul.order_details li {
     float: none;
     font-size: 4vw;
