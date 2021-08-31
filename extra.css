@@ -1331,6 +1331,10 @@
   .woocommerce td.product-name .wc-item-meta p, .woocommerce td.product-name .wc-item-meta li, .woocommerce td.product-name dl.variation p, .woocommerce td.product-name dl.variation li {
     font-size: 4vw;
   }
+
+  .woocommerce .woocommerce-order-details tr th:last-child, .woocommerce .woocommerce-order-details tr td:last-child {
+    padding-left: 0;
+  }
 }
 
 /* #Footer
